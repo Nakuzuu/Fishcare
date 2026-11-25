@@ -1,0 +1,10 @@
+{
+  "old_slots": 20,
+  "new_slots": 22,
+  "original_slots_changed_columns": [],
+  "active_automatic_cycles": 0,
+  "cache_changed_columns": [
+    "body",
+    "fetched_ms"
+  ]
+}

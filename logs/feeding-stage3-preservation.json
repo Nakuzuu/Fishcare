@@ -1,0 +1,9 @@
+{
+  "legacy_cycle_operations_unchanged": true,
+  "legacy_rules_unchanged": true,
+  "feeding_transactions_unchanged": true,
+  "lockfile_unchanged": true,
+  "schema": 6,
+  "tests": "98 standard tests passed",
+  "policy_active_in_ui": false
+}

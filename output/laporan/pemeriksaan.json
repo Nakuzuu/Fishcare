@@ -1,0 +1,24 @@
+{
+  "pages": 10,
+  "includesCoverAndReferences": true,
+  "renderer": "Microsoft Word COM ExportAsFixedFormat; PDF pages rendered with PDFium",
+  "sections": 1,
+  "paper": "Letter, margin 1 inch; matches template",
+  "membersBlank": 6,
+  "group": 7,
+  "sourceTemplateUnchanged": true,
+  "preservedParts": [
+    "word/numbering.xml",
+    "word/fontTable.xml",
+    "word/_rels/fontTable.xml.rels",
+    "customXML/itemProps1.xml",
+    "customXML/item1.xml",
+    "customXML/_rels/item1.xml.rels",
+    "_rels/.rels",
+    "word/fonts/Play-bold.ttf",
+    "word/theme/theme1.xml",
+    "word/fonts/Play-regular.ttf"
+  ],
+  "figures": 7,
+  "applicationSourceModified": false
+}

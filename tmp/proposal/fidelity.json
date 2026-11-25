@@ -1,0 +1,18 @@
+{
+  "sourceHashUnchanged": true,
+  "preservedParts": [
+    "word/numbering.xml",
+    "word/fontTable.xml",
+    "word/_rels/fontTable.xml.rels",
+    "customXML/itemProps1.xml",
+    "customXML/item1.xml",
+    "customXML/_rels/item1.xml.rels",
+    "_rels/.rels",
+    "word/fonts/Play-bold.ttf",
+    "word/theme/theme1.xml",
+    "word/fonts/Play-regular.ttf"
+  ],
+  "explicitPageBreaks": 9,
+  "sections": 1,
+  "members": 6
+}

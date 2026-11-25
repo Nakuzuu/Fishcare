@@ -1,0 +1,8 @@
+{
+  "application_id": "id.ac.fishcare.m0",
+  "version": "0.8.2+10",
+  "size_bytes": 152378696,
+  "sha256": "4F59076187C8401F175F533C3F75AEA8A7E07BCE06F930ECAF183BB472ACFE13",
+  "tests": "70 passed (standard flutter test)",
+  "android_device": "not detected; native grading tests and install not run"
+}

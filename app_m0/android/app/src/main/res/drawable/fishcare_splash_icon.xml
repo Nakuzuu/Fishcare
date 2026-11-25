@@ -1,0 +1,4 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:width="288dp" android:height="288dp"><shape><solid android:color="@android:color/transparent"/></shape></item>
+<item android:left="48dp" android:top="48dp" android:right="48dp" android:bottom="48dp"><bitmap android:src="@drawable/fishcare_mascot" android:gravity="fill" android:filter="true"/></item>
+</layer-list>

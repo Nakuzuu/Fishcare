@@ -1,0 +1,240 @@
+{
+  "columns": {
+    "action_intents": [
+      "id",
+      "kind",
+      "payload",
+      "target_key",
+      "state",
+      "result",
+      "error",
+      "acknowledged",
+      "created_at_ms",
+      "completed_at_ms"
+    ],
+    "android_metadata": [
+      "locale"
+    ],
+    "business_settings": [
+      "id",
+      "zone"
+    ],
+    "cycle_rates": [
+      "seq",
+      "cycle_id",
+      "rate_bp",
+      "operation_id",
+      "changed_at_ms"
+    ],
+    "cycle_schedules": [
+      "id",
+      "cycle_id",
+      "effective_date"
+    ],
+    "cycle_slots": [
+      "cycle_id",
+      "business_date",
+      "minute",
+      "planned_g",
+      "status",
+      "stopped_action_id"
+    ],
+    "cycle_times": [
+      "schedule_id",
+      "minute"
+    ],
+    "cycles": [
+      "id",
+      "pond_id",
+      "feed_id",
+      "fish",
+      "initial_count",
+      "weight_cg",
+      "start_date",
+      "status",
+      "start_payload",
+      "created_at_ms",
+      "current_count",
+      "current_weight_cg",
+      "closed_action_id"
+    ],
+    "feedings": [
+      "seq",
+      "id",
+      "cycle_id",
+      "business_date",
+      "minute",
+      "feed_id",
+      "actual_g",
+      "planned_snapshot_g",
+      "price_snapshot",
+      "rate_snapshot",
+      "population_snapshot",
+      "weight_snapshot_cg",
+      "biomass_snapshot_cg",
+      "cost_snapshot",
+      "need_snapshot_g",
+      "cancel_action_id",
+      "cancel_reason",
+      "created_at_ms"
+    ],
+    "feeds": [
+      "id",
+      "name",
+      "name_key",
+      "notes",
+      "size_description",
+      "price_rp_kg",
+      "is_archived",
+      "revision",
+      "created_at_ms",
+      "updated_at_ms"
+    ],
+    "operations": [
+      "seq",
+      "id",
+      "cycle_id",
+      "business_date",
+      "kind",
+      "before_count",
+      "after_count",
+      "before_weight_cg",
+      "after_weight_cg",
+      "quantity",
+      "harvest_weight_cg",
+      "price_rp_kg",
+      "value_rp",
+      "cancel_action_id",
+      "cancel_reason",
+      "created_at_ms"
+    ],
+    "ponds": [
+      "id",
+      "name",
+      "name_key",
+      "notes",
+      "size_description",
+      "price_rp_kg",
+      "is_archived",
+      "revision",
+      "created_at_ms",
+      "updated_at_ms"
+    ],
+    "schedule_changes": [
+      "operation_id",
+      "cycle_id",
+      "effective_date",
+      "before_times",
+      "after_times",
+      "changed_at_ms"
+    ],
+    "stock_corrections": [
+      "id",
+      "source_id",
+      "old_g",
+      "new_g",
+      "reason",
+      "business_date",
+      "created_at_ms"
+    ],
+    "stock_movements": [
+      "seq",
+      "id",
+      "feed_id",
+      "kind",
+      "delta_g",
+      "original_in_id",
+      "feeding_id",
+      "business_date",
+      "created_at_ms"
+    ],
+    "weather_cache": [
+      "location_key",
+      "body",
+      "fetched_ms"
+    ],
+    "weather_location": [
+      "id",
+      "name",
+      "latitude",
+      "longitude",
+      "approximate",
+      "accuracy"
+    ]
+  },
+  "summary": {
+    "stage": "before",
+    "schema": 5,
+    "integrity": "ok",
+    "tables": {
+      "action_intents": {
+        "count": 36,
+        "sha256_original_columns": "be5e58ef40086ce667fe785ebcfff61dee221989419b5326b29257c76c1d6ba5"
+      },
+      "android_metadata": {
+        "count": 1,
+        "sha256_original_columns": "9d16f7edce809e052c68fe7f56ed863c6b58a3039a6d68b2aa34f2b0e197bfe5"
+      },
+      "business_settings": {
+        "count": 1,
+        "sha256_original_columns": "da7e461631ad82b18c67e455b554746cb5178794990be1c29853c346242cb4c6"
+      },
+      "cycle_rates": {
+        "count": 6,
+        "sha256_original_columns": "f05c315d13b054aa7868ec31eb83a8ed074d809d13a355dbdedcc0751c082e11"
+      },
+      "cycle_schedules": {
+        "count": 6,
+        "sha256_original_columns": "94921119ec3219c5683a81596248fc6df477c719978666051a4fcbb7ba35bc8b"
+      },
+      "cycle_slots": {
+        "count": 20,
+        "sha256_original_columns": "e7c57b411e7f9285841636339d3ea7eb3221671fef0395843551a74b1f7070a2"
+      },
+      "cycle_times": {
+        "count": 12,
+        "sha256_original_columns": "82d620109a058661bb3bf3d1af64b601573ac609d71387280f60f35d95165d01"
+      },
+      "cycles": {
+        "count": 6,
+        "sha256_original_columns": "c788bdf943040900a7a1ccf0110690cdd0f8538862750fdfdb0310a6ac87a249"
+      },
+      "feedings": {
+        "count": 11,
+        "sha256_original_columns": "ca56fbb938a7b23622b328952df78d4d53326a8d22f3f5f28002120b3409c390"
+      },
+      "feeds": {
+        "count": 2,
+        "sha256_original_columns": "3a277e6b8b146c7799e1a3e8186b7b3dd922f47c237be8496f51d83263cb2eb7"
+      },
+      "operations": {
+        "count": 21,
+        "sha256_original_columns": "4cdf40c26afac7382a5ba111c79cfae70418d7744c9026b194aed0bbd13e16e8"
+      },
+      "ponds": {
+        "count": 5,
+        "sha256_original_columns": "07a009ad899b426d7949a5a3120d5dc36089c6396f379a34c74bbe2d7b3afce3"
+      },
+      "schedule_changes": {
+        "count": 0,
+        "sha256_original_columns": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "stock_corrections": {
+        "count": 0,
+        "sha256_original_columns": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "stock_movements": {
+        "count": 14,
+        "sha256_original_columns": "92fc5c37026aac8e8fd04202d772c881702e46dd2350dedb4104b39631d7a3a9"
+      },
+      "weather_cache": {
+        "count": 2,
+        "sha256_original_columns": "42907a5866e2a1243947abf1d067c902236ddfa88992fc61c4d9487e83a77fa2"
+      },
+      "weather_location": {
+        "count": 1,
+        "sha256_original_columns": "e089e786bda82ca2773b2e51c51ad7f155fbf401f3cadcb07c5a206d3341927b"
+      }
+    }
+  }
+}

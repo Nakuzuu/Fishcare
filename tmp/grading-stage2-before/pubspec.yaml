@@ -1,0 +1,17 @@
+name: fishcare_m0
+description: FishCare V2 Android, lokasi usaha dan cuaca atas tindakan pengguna.
+publish_to: none
+version: 0.8.1+9
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: 2.4.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

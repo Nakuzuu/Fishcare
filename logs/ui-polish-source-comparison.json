@@ -1,0 +1,47 @@
+{
+  "changedOriginalFiles": [
+    "cycle_ui.dart",
+    "dashboard_ui.dart",
+    "design_system.dart",
+    "feed_ui.dart",
+    "lifecycle_ui.dart",
+    "product_app.dart",
+    "report_ui.dart",
+    "weather_ui.dart"
+  ],
+  "unchangedOriginalFiles": [
+    "action_journal.dart",
+    "action_payload.dart",
+    "business_location.dart",
+    "cycle_repository.dart",
+    "cycle_rules.dart",
+    "cycle_schema.dart",
+    "data_changes.dart",
+    "day_actual.dart",
+    "device_location.dart",
+    "feed_repository.dart",
+    "location_failure.dart",
+    "m0_main.dart",
+    "m3_schema.dart",
+    "m4_operations.dart",
+    "m4_schema.dart",
+    "main.dart",
+    "master_data.dart",
+    "master_repository.dart",
+    "probe_store.dart",
+    "report_controller.dart",
+    "report_repository.dart",
+    "report_rules.dart",
+    "weather_api.dart",
+    "weather_contract.dart",
+    "weather_controller.dart",
+    "weather_probe.dart",
+    "weather_schema.dart",
+    "weather_store.dart"
+  ],
+  "newFiles": [
+    "activity_ui.dart",
+    "ui_format.dart",
+    "weather_card.dart"
+  ]
+}

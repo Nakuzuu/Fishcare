@@ -1,0 +1,4 @@
+package: name='id.ac.fishcare.m0' versionCode='11' versionName='0.8.3' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'24'
+targetSdkVersion:'36'
+application-label:'FishCare V2'

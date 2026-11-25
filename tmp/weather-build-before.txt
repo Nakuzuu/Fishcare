@@ -1,0 +1,146 @@
+  @override
+  Widget build(BuildContext context) {
+    final saved = c.saved, w = c.weather;
+    final age = w == null
+        ? null
+        : DateTime.now().toUtc().difference(w.reading.fetchedAt);
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(18),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Cuaca terkini dan prakiraan',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            const Text(
+              'Satu lokasi usaha untuk seluruh kolam; suhu udara bukan suhu air kolam.',
+            ),
+            if (c.initializing) const LinearProgressIndicator(),
+            Text(
+              saved == null
+                  ? 'Lokasi usaha belum dipilih.'
+                  : 'Lokasi usaha tersimpan: ${saved.name}\n${saved.latitude}, ${saved.longitude}${saved.approximate ? ' (perkiraan)' : ''}',
+            ),
+            if (!widget.settings)
+              OutlinedButton(
+                onPressed: () async {
+                  await Navigator.of(context).push<void>(
+                    MaterialPageRoute(
+                      builder: (_) => Scaffold(
+                        appBar: FishAppBar(title: const Text('Lokasi usaha')),
+                        body: SafeArea(
+                          child: ListView(
+                            padding: const EdgeInsets.all(18),
+                            children: [
+                              BusinessWeatherPanel(
+                                store: widget.store,
+                                device: widget.device,
+                                api: widget.api,
+                                attempts: widget.attempts,
+                                settings: true,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
+                  if (mounted) await c.initialize();
+                },
+                child: const Text('Atur lokasi'),
+              ),
+            if (!c.initializing && widget.settings) ...[
+              FilledButton(
+                onPressed: c.locating || c.saving ? null : () => c.acquire(),
+                child: const Text('Ambil lokasi saat ini'),
+              ),
+              const Text(
+                'Hanya mengambil sekali saat tombol ditekan; izin lokasi diminta jika diperlukan.',
+              ),
+              TextButton(
+                onPressed: c.saving ? null : _manual,
+                child: const Text('Pilih lokasi manual'),
+              ),
+            ],
+            if (c.locating) ...[
+              const LinearProgressIndicator(),
+              TextButton(
+                onPressed: () => c.cancelCandidate(),
+                child: const Text('Batalkan pengambilan lokasi'),
+              ),
+            ],
+            if (c.locationError != null) ...[
+              Notice(c.locationError!, warning: true),
+              TextButton(
+                onPressed: c.locating || c.saving
+                    ? null
+                    : c.candidate == null
+                    ? () => c.acquire()
+                    : () => c.initialize(),
+                child: Text(
+                  c.candidate == null
+                      ? 'Coba lagi pengambilan lokasi'
+                      : 'Periksa lokasi tersimpan',
+                ),
+              ),
+            ],
+            if (c.candidate != null) ...[
+              Text(
+                'Calon lokasi (belum disimpan): ${c.candidate!.name}\n${c.candidate!.latitude}, ${c.candidate!.longitude}${c.candidate!.approximate ? ' · perkiraan' : ''}${c.candidate!.accuracy != null ? ' · akurasi sekitar ${c.candidate!.accuracy} m' : ''}',
+              ),
+              FilledButton(
+                onPressed: c.saving ? null : _confirm,
+                child: const Text('Simpan sebagai lokasi usaha'),
+              ),
+              TextButton(
+                onPressed: c.saving ? null : () => c.cancelCandidate(),
+                child: const Text('Batalkan calon lokasi'),
+              ),
+            ],
+            if (c.saving || c.loading) const LinearProgressIndicator(),
+            if (c.error != null) Notice(c.error!, warning: true),
+            if (w == null)
+              const Text('Cuaca belum tersedia.')
+            else ...[
+              Text(
+                c.updateFailed
+                    ? 'Data tersimpan — pembaruan gagal/offline'
+                    : c.cached ||
+                          age == null ||
+                          age.isNegative ||
+                          age >= const Duration(minutes: 30)
+                    ? 'Data tersimpan'
+                    : 'Berhasil diperbarui',
+              ),
+              Text(
+                'Suhu udara: ${w.reading.temperature == null || w.reading.unit == null ? 'Tidak tersedia' : '${w.reading.temperature} ${w.reading.unit}'}',
+              ),
+              Text('Kondisi cuaca: ${weatherCodeText(w.reading.code)}'),
+              Text(
+                'Peluang hujan prakiraan hari ${w.rainDay ?? 'tidak tersedia'}: ${w.rain == null ? 'Tidak tersedia' : '${w.rain}%'}',
+              ),
+              Text(
+                'Waktu penyedia (zona lokasi): ${w.reading.providerTime ?? 'Tidak tersedia'}\nDiambil: ${w.reading.fetchedAt.toIso8601String()}',
+              ),
+            ],
+            if (saved != null)
+              TextButton(
+                onPressed: c.loading || c.saving ? null : () => c.refresh(),
+                child: const Text('Muat ulang cuaca'),
+              ),
+            if (c.error != null && saved == null)
+              TextButton(
+                onPressed: () => c.initialize(),
+                child: const Text('Coba lagi'),
+              ),
+            const SelectableText(
+              'Sumber: Open-Meteo · https://open-meteo.com/ · data model/prakiraan',
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

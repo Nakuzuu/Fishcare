@@ -1,0 +1,12 @@
+{
+  "version": "0.8.3+11",
+  "schema": 6,
+  "application_id": "id.ac.fishcare.m0",
+  "bytes": 152395544,
+  "sha256": "A95F022FCC98FD3ED89E6C34B554E20EB6DCFC380712CFC7738D11F786A8E5A8",
+  "standard_tests_passed": 98,
+  "native_tests_run": false,
+  "installed": false,
+  "new_policy_active": false,
+  "apk_badging_log": "logs/feeding-stage3-apk-badging.log"
+}

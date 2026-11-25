@@ -1,0 +1,3 @@
+const {chromium}=require('C:/Users/basti/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const path=require('path');
+(async()=>{const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage({viewport:{width:1280,height:1100},deviceScaleFactor:2});await p.goto('file:///'+path.resolve(__dirname,'../../docs/desain/index.html').replaceAll('\\','/'));for(const id of ['home','ponds','pond','cycle','feed','stock','report','location']){await p.selectOption('#picker',id);await p.locator('#phone').screenshot({path:path.join(__dirname,id+'.png')})}await b.close();console.log('8 gambar desain siap')})().catch(e=>{console.error(e);process.exitCode=1});

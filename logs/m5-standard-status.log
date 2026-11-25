@@ -1,0 +1,5 @@
+﻿M5: flutter analyze, seluruh flutter test, flutter build apk --debug belum dijalankan.
+Pembatasan lingkungan belum berubah: SDK/cache di luar writable root dan eskalasi tidak tersedia.
+Bukti terakhir logs/m4-standard-status.log: UnauthorizedAccessException, Access to C:\flutter\bin\cache\flutter.bat.lock is denied.
+Percobaan lock/Flutter bootstrap yang sama tidak diulang, sesuai instruksi pengguna.
+Native/integration SQLite belum dijalankan. Pemasangan dan manual HP M4+M5 dilakukan pengguna setelah M5.

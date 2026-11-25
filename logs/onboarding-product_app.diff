@@ -1,0 +1,45 @@
+--- 
++++ 
+@@ -15,6 +15,8 @@
+ import 'design_system.dart';
+ import 'dashboard_ui.dart';
+ import 'ui_format.dart';
++import 'intro_store.dart';
++import 'introduction_ui.dart';
+ 
+ class FishCareApp extends StatelessWidget {
+   const FishCareApp({
+@@ -23,21 +25,27 @@
+     this.cycles,
+     this.feeds,
+     this.reports,
++    this.introStore,
+   });
+   final MasterRepository repository;
+   final CycleRepository? cycles;
+   final FeedRepository? feeds;
+   final ReportSource? reports;
++  final IntroStore? introStore;
++  Widget _home(BuildContext context) => ProductHome(
++    repository: repository,
++    cycles: cycles,
++    feeds: feeds,
++    reports: reports,
++  );
+   @override
+   Widget build(BuildContext context) => MaterialApp(
+     title: 'FishCare V2',
++    debugShowCheckedModeBanner: false,
+     theme: FishCareDesign.theme(),
+-    home: ProductHome(
+-      repository: repository,
+-      cycles: cycles,
+-      feeds: feeds,
+-      reports: reports,
+-    ),
++    home: introStore == null
++        ? _home(context)
++        : StartupGate(store: introStore!, homeBuilder: _home),
+   );
+ }
+ 

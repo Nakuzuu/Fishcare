@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-15",
+  "method": "Playwright Chromium pada prototipe HTML lokal; bukan uji Flutter/HP",
+  "screens": 49,
+  "errors": [],
+  "checks": [
+    {
+      "id": "home",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "ponds",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "pondform",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "pond",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "cycle",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "cycleconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feed",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feeding",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feedconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "stock",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feedmaster",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "stockin",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "stockconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "correction",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "correctionconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "rate",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "rateconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "schedule",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "sampling",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "samplingconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "death",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "deathconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "harvest",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "harvestconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "final",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "finalconfirm",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "report",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "filters",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "transactions",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feedingdetail",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "feedingdetail14",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "harvestdetail",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "deathdetail",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "cancel",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "settings",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "location",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "locationresult",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "candidate",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "locationerror",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "empty",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "loading",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "error",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "readerror",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "offline",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "recovery",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "recoveryresult",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "keyboard",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "skip",
+      "missing": [],
+      "overflow": false
+    },
+    {
+      "id": "success",
+      "missing": [],
+      "overflow": false
+    }
+  ],
+  "navigation": "lulus",
+  "canceledDeathDetail": "lulus",
+  "harvestSnapshotDetail": "lulus",
+  "viewport360": "lulus",
+  "keyboardIllustration": "lulus"
+}

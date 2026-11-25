@@ -1,0 +1,294 @@
+--- before/cycle_ui.dart
++++ after/cycle_ui.dart
+@@ -25,21 +25,41 @@
+   final bool enabled;
+   @override
+   Widget build(BuildContext context) => Column(
+-    crossAxisAlignment: CrossAxisAlignment.start,
++    crossAxisAlignment: CrossAxisAlignment.stretch,
+     children: [
+       const Text('Jam pemberian: pilih 1–6 jam unik'),
+-      Wrap(
+-        spacing: 8,
+-        children: [
+-          for (var i = 0; i < times.length; i++)
+-            InputChip(
+-              label: Text(timeText(times[i])),
+-              onDeleted: !enabled
+-                  ? null
+-                  : () => onChanged([...times]..removeAt(i)),
+-            ),
+-        ],
+-      ),
++      const SizedBox(height: 12),
++      for (var i = 0; i < times.length; i++)
++        FishCard(
++          child: Row(
++            children: [
++              const Icon(Icons.schedule_outlined, color: FishCareDesign.green),
++              const SizedBox(width: 12),
++              Expanded(
++                child: Column(
++                  crossAxisAlignment: CrossAxisAlignment.start,
++                  children: [
++                    Text(
++                      'Pemberian ${i + 1}',
++                      style: Theme.of(context).textTheme.bodySmall,
++                    ),
++                    Text(
++                      timeText(times[i]),
++                      style: Theme.of(context).textTheme.titleLarge,
++                    ),
++                  ],
++                ),
++              ),
++              IconButton(
++                tooltip: 'Hapus jam ${timeText(times[i])}',
++                onPressed: !enabled
++                    ? null
++                    : () => onChanged([...times]..removeAt(i)),
++                icon: const Icon(Icons.close),
++              ),
++            ],
++          ),
++        ),
+       OutlinedButton(
+         onPressed: !enabled || times.length >= 6
+             ? null
+@@ -80,6 +100,7 @@
+ 
+ class _CyclePanelState extends State<CyclePanel> with WidgetsBindingObserver {
+   late Future<CycleView?> _view;
++  final _feedingSection = GlobalKey();
+   Timer? _dayTimer;
+   @override
+   void initState() {
+@@ -187,7 +208,7 @@
+           ],
+         );
+       return Column(
+-        crossAxisAlignment: CrossAxisAlignment.start,
++        crossAxisAlignment: CrossAxisAlignment.stretch,
+         children: [
+           const Divider(),
+           const SectionTitle('Siklus aktif — kondisi saat ini'),
+@@ -195,13 +216,9 @@
+           FishCard(
+             child: Column(
+               children: [
+-                ValueRow(
+-                  'Populasi terkini',
+-                  '${uiNumber(view.population)} ekor',
+-                ),
+-                ValueRow(
+-                  'Bobot rata-rata',
+-                  '${uiDecimal(view.weightCg)} g/ikan',
++                FishMetrics(
++                  population: uiNumber(view.population),
++                  weight: uiDecimal(view.weightCg),
+                 ),
+                 ValueRow('Pakan', view.feedName),
+                 ValueRow(
+@@ -228,16 +245,43 @@
+                       : 'Kebutuhan harian',
+                   style: Theme.of(context).textTheme.bodySmall,
+                 ),
+-                Text(
+-                  view.need == null
+-                      ? 'Belum bisa dihitung'
+-                      : '${uiNumber(view.need!)} g/hari',
+-                  key: const Key('daily-need'),
+-                  style: const TextStyle(
+-                    fontSize: 30,
+-                    fontWeight: FontWeight.w700,
++                Padding(
++                  padding: const EdgeInsets.symmetric(vertical: 8),
++                  child: Text.rich(
++                    TextSpan(
++                      children: [
++                        TextSpan(
++                          text: view.need == null
++                              ? 'Belum bisa dihitung'
++                              : uiNumber(view.need!),
++                          style: const TextStyle(
++                            fontSize: 28,
++                            fontWeight: FontWeight.w700,
++                          ),
++                        ),
++                        if (view.need != null)
++                          const TextSpan(
++                            text: ' g/hari',
++                            style: TextStyle(fontSize: 15),
++                          ),
++                      ],
++                    ),
++                    key: const Key('daily-need'),
+                   ),
+                 ),
++                if (widget.feeds != null) ...[
++                  const SizedBox(height: 8),
++                  SizedBox(
++                    width: double.infinity,
++                    child: OutlinedButton(
++                      onPressed: () => Scrollable.ensureVisible(
++                        _feedingSection.currentContext!,
++                        duration: const Duration(milliseconds: 250),
++                      ),
++                      child: const Text('Lihat pakan hari ini'),
++                    ),
++                  ),
++                ],
+                 ValueRow('Sudah diberikan', '${view.actualToday} g'),
+                 ValueRow(
+                   view.automatic ? 'Rencana porsi menunggu' : 'Sisa kebutuhan',
+@@ -256,8 +300,8 @@
+               !view.statuses.contains('pending') &&
+               (view.remaining ?? 0) > 0)
+             Text('Sisa belum diberikan: ${view.remaining} g'),
+-          const SectionTitle('Pakan hari ini'),
+-          if (widget.feeds == null)
++          if (widget.feeds == null) ...[
++            const SectionTitle('Pakan hari ini'),
+             for (var i = 0; i < view.times.length; i++)
+               FishCard(
+                 child: Text(
+@@ -270,33 +314,79 @@
+                       : 'Menunggu'}',
+                 ),
+               ),
+-          Text(
+-            'Jam berlaku besok ${nextDate(view.date)}: ${view.tomorrowTimes.map(timeText).join(', ')}',
+-          ),
+-          const SectionTitle('Atur siklus'),
+-          if (!view.automatic)
+-            OutlinedButton(
+-              onPressed: () => _open(view, rate: true),
+-              child: const Text('Ubah rate sekarang'),
+-            ),
+-          const SizedBox(height: 12),
+-          OutlinedButton(
+-            onPressed: () => _open(view),
+-            child: const Text('Ubah jam untuk besok'),
+-          ),
+-          TextButton(
+-            onPressed: () => setState(_reload),
+-            child: const Text('Muat ulang kebutuhan'),
+-          ),
+-          if (widget.feeds != null)
+-            FeedingControls(
+-              showHistory: false,
+-              view: view,
+-              repo: widget.feeds!,
+-              onSaved: () => setState(_reload),
++            Text(
++              'Jam berlaku besok ${nextDate(view.date)}: ${view.tomorrowTimes.map(timeText).join(', ')}',
++            ),
++          ],
++          if (widget.feeds == null)
++            Column(
++              crossAxisAlignment: CrossAxisAlignment.stretch,
++              children: [
++                const SectionTitle('Atur siklus'),
++                FishActionGrid(
++                  children: [
++                    if (!view.automatic)
++                      OutlinedButton(
++                        onPressed: () => _open(view, rate: true),
++                        child: const Text(
++                          'Ubah rate',
++                          textAlign: TextAlign.center,
++                        ),
++                      ),
++                    OutlinedButton(
++                      onPressed: () => _open(view),
++                      child: const Text(
++                        'Jam besok',
++                        textAlign: TextAlign.center,
++                      ),
++                    ),
++                  ],
++                ),
++              ],
+             ),
+           if (widget.feeds != null)
+             LifecyclePanel(
++              feeding: Column(
++                crossAxisAlignment: CrossAxisAlignment.stretch,
++                children: [
++                  const SectionTitle('Pakan hari ini'),
++                  Text(
++                    'Jam berlaku besok ${nextDate(view.date)}: ${view.tomorrowTimes.map(timeText).join(', ')}',
++                  ),
++                  FeedingControls(
++                    key: _feedingSection,
++                    showHistory: false,
++                    view: view,
++                    repo: widget.feeds!,
++                    onSaved: () => setState(_reload),
++                  ),
++                ],
++              ),
++              settings: Column(
++                crossAxisAlignment: CrossAxisAlignment.stretch,
++                children: [
++                  const SectionTitle('Atur siklus'),
++                  FishActionGrid(
++                    children: [
++                      if (!view.automatic)
++                        OutlinedButton(
++                          onPressed: () => _open(view, rate: true),
++                          child: const Text(
++                            'Ubah rate',
++                            textAlign: TextAlign.center,
++                          ),
++                        ),
++                      OutlinedButton(
++                        onPressed: () => _open(view),
++                        child: const Text(
++                          'Jam besok',
++                          textAlign: TextAlign.center,
++                        ),
++                      ),
++                    ],
++                  ),
++                ],
++              ),
+               repo: widget.feeds!,
+               pondId: widget.pond.id,
+               view: view,
+@@ -474,6 +564,7 @@
+                       child: const Text('Muat ulang pakan'),
+                     ),
+                   ],
++                  const SectionTitle('Data awal siklus'),
+                   TextFormField(
+                     scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
+                     controller: _fish,
+@@ -514,6 +605,7 @@
+                     ),
+                     validator: (v) => _validate(v, 2),
+                   ),
++                  const SectionTitle('Pakan dan kebutuhan'),
+                   DropdownButtonFormField<String>(
+                     initialValue: _feedId,
+                     isExpanded: true,
+@@ -533,7 +625,7 @@
+                         ? 'Belum tersedia (bobot minimal acuan 2 g)'
+                         : '${decimalText(_automaticRate!)}% per hari',
+                   ),
+-                  const Text(
++                  const Notice(
+                     'Rate mengikuti bobot awal, lalu bobot grading terbaru. Ukur suhu dan pH setiap pemberian.',
+                   ),
+                   DropdownButtonFormField<String>(
+@@ -594,7 +686,9 @@
+   @override
+   void initState() {
+     super.initState();
+-    _rate = TextEditingController(text: decimalText(widget.view.rateBp!));
++    _rate = TextEditingController(
++      text: widget.view.rateBp == null ? '' : decimalText(widget.view.rateBp!),
++    );
+     _times = [...widget.view.tomorrowTimes];
+   }
+ 

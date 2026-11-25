@@ -1,0 +1,64 @@
+﻿Inventaris M0 — 13 Oktober 2026
+flutter --version: tertahan tanpa output versi, dihentikan; flutter doctor -v/devices yang dijadwalkan setelahnya tidak tercapai.
+{
+  "frameworkVersion": "3.47.5",
+  "channel": "stable",
+  "repositoryUrl": "https://github.com/flutter/flutter.git",
+  "frameworkRevision": "6a19cca56475dbfba1478ee68d7bd0c2ef891da1",
+  "frameworkCommitDate": "2026-09-17 14:13:22 -0400",
+  "engineRevision": "af7e796e161ae0bb1ff0758c71a7105418bd9ded",
+  "engineCommitDate": "2026-09-16 18:35:09.000Z",
+  "engineContentHash": "ab598368592da0064197e2bc15c7f5b0a2c6bb1f",
+  "engineBuildDate": "2026-09-17 02:35:21.428",
+  "dartSdkVersion": "3.13.4",
+  "devToolsVersion": "2.60.0",
+  "flutterVersion": "3.47.5"
+}
+Dart SDK version: 3.13.4 (stable) (Tue Sep 15 01:01:15 2026 -0700) on "windows_x64"
+
+java : java version "1.8.0_401"
+At line:2 char:405
++ ... rsion 2>&1 | Out-String); $m0Inventory += (java -version 2>&1 | Out-S ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (java version "1.8.0_401":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.401-b10, mixed mode)
+
+java.exe : openjdk version "25.0.3" 2026-04-21
+At line:2 char:456
++ ... ventory += (& 'C:/Program Files/Android/Android Studio/jbr/bin/java.e ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (openjdk version "25.0.3" 2026-04-21:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OpenJDK Runtime Environment (build 25.0.3+-15898627-b508.16)
+OpenJDK 64-Bit Server VM (build 25.0.3+-15898627-b508.16, mixed mode)
+
+List of devices attached
+
+
+Pkg.Desc=Android SDK Platform 17
+Pkg.UserSrc=false
+Platform.Version=17
+Platform.CodeName=
+Pkg.Revision=2
+AndroidVersion.ApiLevel=37.0
+AndroidVersion.CodeName=
+AndroidVersion.ExtensionLevel=22
+AndroidVersion.IsBaseSdk=true
+AndroidVersion.PreviewSdkInt=0
+AndroidVersion.BetaVersion=
+Layoutlib.Api=15
+Layoutlib.Revision=1
+Platform.MinToolsRev=22
+Pkg.Desc = Android NDK
+Pkg.Revision = 28.2.13676358
+Pkg.BaseRevision = 28.2.13676358
+Pkg.ReleaseName = r28c
+Pkg.UserSrc=false
+Pkg.Revision=36.0.0
+#Pkg.Revision=36.0.0 rc5
+Pkg.UserSrc=false
+Pkg.Revision=37.0.1

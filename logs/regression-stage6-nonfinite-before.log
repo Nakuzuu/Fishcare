@@ -1,0 +1,39 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/action_payload_test.dart
+00:00 +0: angka nonfinite ditolak sebagai input invalid sebelum jurnal ditulis
+00:00 +0 -1: angka nonfinite ditolak sebagai input invalid sebelum jurnal ditulis [E]
+  Expected: throws <Instance of 'ValidationFailure'>
+    Actual: <Closure: () => String>
+     Which: threw JsonUnsupportedObjectError:<Converting object to an encodable object failed: NaN>
+            stack dart:convert                                        jsonEncode
+                  package:fishcare_m0/action_payload.dart 13:5        canonicalPayload
+                  test\action_payload_test.dart 8:20                  main.<fn>.<fn>
+                  package:matcher                                     expect
+                  package:flutter_test/src/widget_tester.dart 473:18  expect
+                  test\action_payload_test.dart 8:7                   main.<fn>
+                  
+            which is not an instance of 'ValidationFailure'
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\action_payload_test.dart 8:7                   main.<fn>
+  
+00:00 +0 -1: payload kanonik tidak tergantung urutan key dan mempertahankan input
+00:00 +1 -1: Some tests failed.
+
+Failing tests:
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/action_payload_test.dart: angka nonfinite ditolak sebagai input invalid sebelum jurnal ditulis

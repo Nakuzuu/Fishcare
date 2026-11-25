@@ -1,0 +1,43 @@
+﻿Bukti M0 yang ditemukan 13 Oktober 2026 — bukan hasil build M1
+
+
+FullName      : C:\Users\basti\OneDrive\Lampiran\Documents\FishCare V2\artifacts\m0\fishcare-m0-debug.apk
+Length        : 78835359
+LastWriteTime : 10/13/2026 5:05:59 PM
+
+
+
+
+
+
+Algorithm : SHA256
+Hash      : FD91F6A7341E382712CD9F9976544A54D4A1836F4581C9DB210AA2E3DCF09177
+Path      : C:\Users\basti\OneDrive\Lampiran\Documents\FishCare V2\artifacts\m0\fishcare-m0-debug.apk
+
+
+
+
+
+package: name='id.ac.fishcare.m0' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' 
+platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'24'
+targetSdkVersion:'36'
+application-label:'FishCare M0 (Uji)'
+
+
+
+HP melalui getprop: model, Android release, API level
+Infinix X6879
+16
+36
+146:2026-10-13T16:58:51.977+0700 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=8b2db9d0-abc6-463c-bfee-10f8aa2a535d,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=25,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\basti\.gradle\daemon,pid=16392,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=768m,-XX:ReservedCodeCacheSize=256m,-Xmx2G,-Dfile.encoding=UTF-8,-Duser.country=ID,-Duser.language=en,-Duser.variant]
+
+
+
+Algorithm : SHA256
+Hash      : 5F58FFBDCCAB977D516CEA1A50AAA3BAF679AE979D94CC2DEB671F0E1EA71434
+Path      : C:\Users\basti\OneDrive\Lampiran\Documents\FishCare V2\app_m0\pubspec.lock
+
+
+
+

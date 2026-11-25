@@ -1,0 +1,89 @@
+--- before/lifecycle_ui.dart
++++ after/lifecycle_ui.dart
+@@ -18,11 +18,15 @@
+     required this.repo,
+     required this.pondId,
+     this.view,
++    this.settings,
++    this.feeding,
+     required this.onSaved,
+   });
+   final FeedRepository repo;
+   final String pondId;
+   final CycleView? view;
++  final Widget? settings;
++  final Widget? feeding;
+   final VoidCallback onSaved;
+   @override
+   State<LifecyclePanel> createState() => _LifecyclePanelState();
+@@ -30,6 +34,7 @@
+ 
+ class _LifecyclePanelState extends State<LifecyclePanel> {
+   late Future<List<Map<String, Object?>>> _rows;
++  final _historySection = GlobalKey();
+   void _reload() {
+     _rows = widget.repo.master.database().then(
+       (db) => db.transaction(
+@@ -77,26 +82,48 @@
+     crossAxisAlignment: CrossAxisAlignment.start,
+     children: [
+       const Divider(),
++      if (widget.view != null) const SectionTitle('Kegiatan kolam'),
++      if (widget.view != null)
++        FishActionGrid(
++          children: [
++            for (final kind in ['sampling', 'death', 'partial'])
++              OutlinedButton(
++                onPressed: () => _open(kind),
++                child: Text(actionLabel(kind), textAlign: TextAlign.center),
++              ),
++            OutlinedButton(
++              onPressed: () => Scrollable.ensureVisible(
++                _historySection.currentContext!,
++                duration: const Duration(milliseconds: 250),
++              ),
++              child: const Text('Riwayat'),
++            ),
++          ],
++        ),
++      if (widget.settings != null) widget.settings!,
++      if (widget.view != null)
++        Padding(
++          padding: const EdgeInsets.only(top: 12),
++          child: SizedBox(
++            width: double.infinity,
++            child: OutlinedButton(
++              onPressed: () => _open('final'),
++              child: const Text(
++                'Panen akhir / tutup siklus',
++                textAlign: TextAlign.center,
++              ),
++            ),
++          ),
++        ),
++      if (widget.view != null) const SizedBox(height: 20),
+       if (widget.view != null)
+         GradingPlanPanel(
+           repo: widget.repo,
+           view: widget.view!,
+           onSaved: widget.onSaved,
+         ),
+-      if (widget.view != null) const SectionTitle('Kegiatan kolam'),
+-      if (widget.view != null)
+-        Wrap(
+-          spacing: 12,
+-          runSpacing: 12,
+-          children: [
+-            for (final kind in ['sampling', 'death', 'partial', 'final'])
+-              OutlinedButton(
+-                onPressed: () => _open(kind),
+-                child: Text(actionLabel(kind)),
+-              ),
+-          ],
+-        ),
+-      const SectionTitle('Riwayat kegiatan dan siklus selesai'),
++      if (widget.feeding != null) widget.feeding!,
++      SectionTitle('Riwayat kegiatan dan siklus selesai', key: _historySection),
+       FutureBuilder<List<Map<String, Object?>>>(
+         future: _rows,
+         builder: (context, s) {

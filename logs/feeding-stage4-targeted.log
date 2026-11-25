@@ -1,0 +1,54 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart
+00:00 +0: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: parser suhu/pH presisi menerima koma/titik dan menolak kosong/pemisah/nonfinite
+00:00 +1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: waktu pengukuran hari lama/masa depan ditolak dan nama lele tidak menebak spesies lain
+00:00 +2: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:01 +3: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: pengukuran wajib; kondisi32C boleh dicatat dengan rekomendasi kosong; batal tidak menyimpan
+00:02 +4: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: pemberian dingin menyimpan pengukuran/payload sama sekali; buka form baru kosong
+00:03 +5: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: harga berubah sebelum tinjau harus ditampilkan dan ditinjau ulang
+00:03 +6: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: snapshot lama tanpa pengukuran tidak ditampilkan sebagai nol
+00:03 +7: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart
+00:04 +7: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:05 +8: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: bobot NaN ditolak sebelum mulai siklus otomatis dan draft tetap tersedia
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following StateError was thrown running a test:
+Bad state: No element
+
+When the exception was thrown, this was the stack:
+#0      Iterable.single (dart:core/iterable.dart:694:25)
+#1      WidgetController.element (package:flutter_test/src/controller.dart:888:30)
+#2      WidgetController.ensureVisible (package:flutter_test/src/controller.dart:2389:32)
+#3      main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/cycle_ui_test.dart:127:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  bobot NaN ditolak sebelum mulai siklus otomatis dan draft tetap tersedia
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:06 +8 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: bobot NaN ditolak sebelum mulai siklus otomatis dan draft tetap tersedia [E]
+  Test failed. See exception logs above.
+  The test description was: bobot NaN ditolak sebelum mulai siklus otomatis dan draft tetap tersedia
+  
+00:06 +8 -1: Some tests failed.
+
+Failing tests:
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: bobot NaN ditolak sebelum mulai siklus otomatis dan draft tetap tersedia

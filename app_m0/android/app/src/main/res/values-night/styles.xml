@@ -1,0 +1,9 @@
+<resources>
+<style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+<item name="android:windowBackground">@drawable/launch_background</item>
+<item name="android:statusBarColor">@color/fishcare_background</item>
+<item name="android:windowLightStatusBar">true</item>
+
+</style>
+<style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar"><item name="android:windowBackground">@color/fishcare_background</item></style>
+</resources>

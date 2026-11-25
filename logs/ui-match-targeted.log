@@ -1,0 +1,115 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.6 available)
+  sqflite_android 2.4.4 (2.4.6 available)
+  sqflite_common 2.5.13+1 (2.5.17 available)
+  sqflite_darwin 2.4.4 (2.4.6 available)
+  sqflite_platform_interface 2.4.2 (2.4.4 available)
+  synchronized 3.4.2 (3.6.1+1 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.3 (2.4.4 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+11 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart
+00:00 +0: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:00 +1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:01 +2: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:01 +3: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:01 +4: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:02 +5: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:02 +6: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:02 +7: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: cuaca old 360dp teks130 tanpa dummy atau koordinat utama
+00:02 +8: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +9: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +10: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +11: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +12: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +13: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:02 +14: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:03 +14: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: detail kolam nama sekali dan identitas sekunder
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Kolam aktif": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/ui_polish_test.dart:171:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/ui_polish_test.dart line 171
+The test description was:
+  detail kolam nama sekali dan identitas sekunder
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +14 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:03 +14 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: detail kolam nama sekali dan identitas sekunder [E]
+  Test failed. See exception logs above.
+  The test description was: detail kolam nama sekali dan identitas sekunder
+  
+00:03 +15 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:03 +15 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: duplikat dari penyimpanan ditampilkan dekat field; draft tetap
+M1 save: Instance of 'ValidationFailure'
+#0      TestRepository.save (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/product_app_test.dart:32:7)
+#1      _MasterFormState._save (package:fishcare_m0/product_app.dart:691:31)
+#2      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1224:21)
+#3      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:362:24)
+#4      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:758:11)
+#5      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:383:5)
+#6      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:314:7)
+#7      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:738:9)
+#8      PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:97:12)
+#9      PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:140:9)
+#10     _LinkedHashMapMixin.forEach (dart:_compact_hash:721:13)
+#11     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:138:18)
+#12     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:128:7)
+#13     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:538:19)
+#14     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:508:22)
+#15     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:473:11)
+#16     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:447:7)
+#17     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:404:5)
+#18     TestWidgetsFlutterBinding.handlePointerEventForSource.<anonymous closure> (package:flutter_test/src/binding.dart:1571:42)
+#19     TestWidgetsFlutterBinding.withPointerEventSource (package:flutter_test/src/binding.dart:1581:11)
+#20     TestWidgetsFlutterBinding.handlePointerEventForSource (package:flutter_test/src/binding.dart:1571:5)
+#21     WidgetTester.sendEventToBinding.<anonymous closure> (package:flutter_test/src/widget_tester.dart:869:15)
+#22     _rootRun (dart:async/zone_root.dart:35:13)
+#23     _CustomZone.run (dart:async/zone.dart:810:35)
+#24     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#25     WidgetTester.sendEventToBinding (package:flutter_test/src/widget_tester.dart:868:27)
+#26     TestGesture.up.<anonymous closure> (package:flutter_test/src/test_pointer.dart:587:26)
+#27     _rootRun (dart:async/zone_root.dart:35:13)
+#28     _CustomZone.run (dart:async/zone.dart:810:35)
+#29     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#30     TestGesture.up (package:flutter_test/src/test_pointer.dart:580:27)
+#31     WidgetController.tapAt.<anonymous closure> (package:flutter_test/src/controller.dart:1155:21)
+<asynchronous suspension>
+#32     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#33     main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/product_app_test.dart:107:7)
+<asynchronous suspension>
+#34     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#35     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+#36     StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+
+00:03 +16 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:03 +17 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: kartu siklus menyembunyikan ID panjang dan memformat snapshot
+00:03 +18 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: cuaca memuat: navigasi lokal dan Atur lokasi tetap aktif tanpa ambil HP
+00:04 +19 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: riwayat ringkas membuka snapshot dan alasan batal yang sama
+00:04 +20 -1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: posisi gulir awal Beranda dan Laporan tidak diwariskan antartab
+00:04 +21 -1: Some tests failed.
+
+Failing tests:
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: detail kolam nama sekali dan identitas sekunder

@@ -1,0 +1,141 @@
+{
+  "input": "C:\\Users\\basti\\Downloads\\TEMPLATE PROPOSAL PjBL PPB.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 36,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "HALAMAN JUDUL PROPOSAL PROJECT",
+      "style": "normal"
+    },
+    {
+      "para_index": 2,
+      "text": "PENGEMBANGAN APLIKASI BERGERAK",
+      "style": "normal"
+    },
+    {
+      "para_index": 3,
+      "text": "Mata Kuliah",
+      "style": "normal"
+    },
+    {
+      "para_index": 5,
+      "text": "Judul Proyek",
+      "style": "normal"
+    },
+    {
+      "para_index": 7,
+      "text": "Nama Aplikasi",
+      "style": "normal"
+    },
+    {
+      "para_index": 9,
+      "text": "Kelompok",
+      "style": "normal"
+    },
+    {
+      "para_index": 12,
+      "text": "BAB 1",
+      "style": "normal"
+    },
+    {
+      "para_index": 13,
+      "text": "PENDAHULUAN",
+      "style": "normal"
+    },
+    {
+      "para_index": 14,
+      "text": "1.1 Latar Belakang",
+      "style": "normal"
+    },
+    {
+      "para_index": 15,
+      "text": "1.2 Rumusan Masalah",
+      "style": "normal"
+    },
+    {
+      "para_index": 16,
+      "text": "1.3 Tujuan Proyek",
+      "style": "normal"
+    },
+    {
+      "para_index": 17,
+      "text": "1.4 Manfaat Proyek",
+      "style": "normal"
+    },
+    {
+      "para_index": 19,
+      "text": "BAB 2",
+      "style": "normal"
+    },
+    {
+      "para_index": 20,
+      "text": "TINJAUAN PUSTAKA",
+      "style": "normal"
+    },
+    {
+      "para_index": 21,
+      "text": "2.1 Konsep Aplikasi Mobile",
+      "style": "normal"
+    },
+    {
+      "para_index": 22,
+      "text": "2.2 Framework Flutter / Android",
+      "style": "normal"
+    },
+    {
+      "para_index": 23,
+      "text": "2.3 UI/UX dalam Aplikasi Mobile",
+      "style": "normal"
+    },
+    {
+      "para_index": 24,
+      "text": "2.4 Teknologi Backend / API",
+      "style": "normal"
+    },
+    {
+      "para_index": 26,
+      "text": "BAB 3",
+      "style": "normal"
+    },
+    {
+      "para_index": 27,
+      "text": "PERANCANGAN SISTEM",
+      "style": "normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "HALAMAN JUDUL PROPOSAL PROJECT",
+        "style": "normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "PENGEMBANGAN APLIKASI BERGERAK",
+        "style": "normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "Mata Kuliah",
+        "style": "normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Judul Proyek",
+        "style": "normal"
+      },
+      {
+        "para_index": 7,
+        "run_text": "Nama Aplikasi",
+        "style": "normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,28 @@
+﻿APK M1 yang ditemukan, bukan build M2:
+
+
+FullName      : C:\Users\basti\OneDrive\Lampiran\Documents\FishCare V2\artifacts\m1\fishcare-m1-debug.apk
+Length        : 152100979
+LastWriteTime : 10/13/2026 5:39:03 PM
+
+
+
+
+
+
+Algorithm : SHA256
+Hash      : 44D11922AA5D3A5DF101FFCDCD876E66BB3FAA9EBF74FC82DD685780F4EFE59D
+Path      : C:\Users\basti\OneDrive\Lampiran\Documents\FishCare V2\artifacts\m1\fishcare-m1-debug.apk
+
+
+
+
+
+package: name='id.ac.fishcare.m0' versionCode='2' versionName='0.2.0' platformBuildVersionName='16' 
+platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'24'
+targetSdkVersion:'36'
+application-label:'FishCare V2'
+
+
+

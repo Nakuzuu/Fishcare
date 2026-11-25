@@ -1,0 +1,23 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/harvest_result_test.dart
+00:00 +0: seluruh siklus, snapshot harga berbeda, batal dikecualikan dan siklus terpisah
+00:00 +1: hasil siklus tetap seluruh siklus ketika filter periode hanya tanggal akhir
+00:00 +2: tutup tanpa panen, tanpa biaya, dan selisih negatif tetap jujur
+00:00 +3: data biaya tidak lengkap tetap gagal, bukan keuntungan rekaan
+00:00 +4: tabel 360dp teks besar menampilkan nilai negatif tanpa overflow
+00:00 +5: detail panen akhir memuat tabel seluruh siklus
+00:00 +6: All tests passed!

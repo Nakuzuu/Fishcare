@@ -1,0 +1,62 @@
+{
+  "word/numbering.xml": {
+    "size": 1690,
+    "sha256": "d2a3e08465525eee874ea10d780540816951a37b115e90f1cd56aefdd76adc2e"
+  },
+  "word/settings.xml": {
+    "size": 2152,
+    "sha256": "26f2853fde05b88d4b0a9da0bb016d56a896901f60c9272dddf33c3f3fa61e4a"
+  },
+  "word/fontTable.xml": {
+    "size": 1939,
+    "sha256": "7e54aa7eeece1cb25db0785ebba65bf218e07a060a9e44ea762f4926b71280f6"
+  },
+  "word/_rels/fontTable.xml.rels": {
+    "size": 427,
+    "sha256": "b7aeb6addef2217561f3fd1ef4cfee4d4444f69d8c2733e90248df44c68e0b78"
+  },
+  "word/styles.xml": {
+    "size": 5055,
+    "sha256": "c3034cd4e2e9f89b5ba4e26df88b96d56c2f68f4e060e6febd4816bad431b5e5"
+  },
+  "customXML/itemProps1.xml": {
+    "size": 404,
+    "sha256": "fc2e321bb5ca54d5f2b99b99f91d681d004417098918a318be88fe525218c9a3"
+  },
+  "customXML/item1.xml": {
+    "size": 485,
+    "sha256": "1403a325ae329761684d1138ade128bdc0d2382a60f344dbf4850929002ad62b"
+  },
+  "customXML/_rels/item1.xml.rels": {
+    "size": 295,
+    "sha256": "26ac718f80df621ee703e3c0f143a63034967c5fe65fbfdcefbf96419235355e"
+  },
+  "word/document.xml": {
+    "size": 19046,
+    "sha256": "2f8a51df0569346c14723fccb21efa87248ddb646ada9e65a5fc30c2b80fb598"
+  },
+  "word/_rels/document.xml.rels": {
+    "size": 954,
+    "sha256": "e7cbff5e3d44202f756edef47e21a1b4899b0b381a0a2bdd04d592736f322796"
+  },
+  "_rels/.rels": {
+    "size": 298,
+    "sha256": "1cc87395d4a229f21c23af406724de12dd9454071925f983e4b648a7b2be8cc5"
+  },
+  "word/fonts/Play-bold.ttf": {
+    "size": 146600,
+    "sha256": "b0270d79073f111f528ee9c25503ab9ec92dc19517198dcf7528b00f89fbd4b7"
+  },
+  "word/theme/theme1.xml": {
+    "size": 7643,
+    "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2"
+  },
+  "word/fonts/Play-regular.ttf": {
+    "size": 139616,
+    "sha256": "e1e9c9a87d56ac9897b41de72db27e5b5c7f97e1583690e338be7d4dd6c68deb"
+  },
+  "[Content_Types].xml": {
+    "size": 1440,
+    "sha256": "1f7ac38f82b90c97b010595a64fc51b0547633e4bd12c89a806abb4f242e31b3"
+  }
+}

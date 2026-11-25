@@ -1,0 +1,13 @@
+﻿2026-10-20, revisi UI FishCare0.8.1+9.
+flutter analyze (app_m0): dipanggil standar, bootstrap tidak menghasilkan output; dihentikan Ctrl+C sebelum analyzer.
+flutter test (app_m0): dipanggil standar, bootstrap tidak menghasilkan output; dihentikan Ctrl+C sebelum runner. Tidak ada jumlah tes lulus/gagal.
+flutter build apk --debug (app_m0): dipanggil standar, bootstrap tidak menghasilkan output; dihentikan Ctrl+C sebelum Gradle. Tidak ada APK0.8.1+9 dari sesi agen.
+Diagnosis: File.Open ReadWrite C:\flutter\bin\cache\flutter.bat.lock ditolak Access denied.
+Kebijakan sesi sandbox_approval:false; jalur eskalasi exec_command resmi sudah ditolak otomatis pada tahap sebelumnya dan tidak tersedia sesi ini. Tidak mengubah ACL/cache/SDK atau menjalankan snapshot Flutter sebagai bypass.
+Dart formatter: lihat ui-polish-format.log, parsing/format saja.
+Dart murni tambahan:7 kasus format tampilan lulus (ui-polish-format-extra.log), bukan Flutter/widget/render.
+ADB get-state: device. ModelInfinix X6879, Android16, API36. Package terpasangversionName0.8.0/versionCode8.
+ADB am start id.ac.fishcare.m0/.MainActivity dipanggil pada instalasi lama untuk mengambil tampilan sebelum; bukan pemasangan baru atau bukti fungsi.
+Screencap: mula-mula splash, lalu tangkapan hitam. dumpsys power menunjukkanmWakefulness=Dozing. Tidak dinilai sebagai screenshot Beranda/detail/Laporan yang valid. Tidak menyimpulkan aplikasi crash.
+Pertanyaan async pengguna: jalankan perintah standar dari terminal berakses SDK dan buka kunci/buka FishCare untuk screenshot. Menunggu hasil eksternal; tidak menganggap diam sebagai hasil lulus.
+Tidak mengubah data budidaya atau pengaturan layar, tidak uninstall/reset, tidak memasang APK lama sebagai hasil baru.

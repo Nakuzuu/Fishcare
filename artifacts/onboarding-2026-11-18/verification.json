@@ -1,0 +1,11 @@
+{
+  "version": "0.12.0+17",
+  "package": "id.ac.fishcare.m0",
+  "sha256": "211857c7afa1da46c2d27359a3522e835f7d4f6b1da5dbde22f0632e44e81989",
+  "size": 156760968,
+  "flutter_tests": 144,
+  "native_tests": 1,
+  "installed": true,
+  "device": "Infinix X6879 Android16/API36",
+  "product_intro_completed_by_agent": false
+}

@@ -1,0 +1,81 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/integration_test/all_database_test.dart
+Running Gradle task 'assembleDebug'...                          
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/basti/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Running Gradle task 'assembleDebug'...                             17.8s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           4.7s
+00:00 +0: M0 SQLite SQLite native menyimpan dan membuka ulang koneksi tanpa menimpa marker
+00:01 +1: M1 master nama lintas kapitalisasi dan arsip tetap unik; rollback utuh
+00:01 +2: M1 master create ulang ID sama tidak ganda; harga invalid dan update stale ditolak
+00:02 +3: M1 master file data tetap saat repository dan koneksi dibuka ulang
+00:02 +4: M2 siklus dan migrasi start atomic, retry sama id tidak ganda, siklus aktif kedua ditolak
+00:03 +5: M2 siklus dan migrasi jam duplikat dan kegagalan insert rate rollback seluruh start
+00:03 +6: M2 siklus dan migrasi ubah jam sebelum membuka detail: hari ini tetap besok mengganti, rate langsung
+00:29 +7: M2 siklus dan migrasi migrasi v1 mempertahankan master termasuk arsip dan harga
+00:29 +8: M2 siklus dan migrasi pratinjau rate otomatis tidak mengganti rate manual atau menulis slot
+00:30 +9: M2 siklus dan migrasi pratinjau memakai jam hari ini, besok memakai template efektif tanpa materialisasi
+00:30 +10: M3 stok, pemberian dan recovery dua kolam berbagi stok: kurang ditolak utuh
+00:32 +11: M3 stok, pemberian dan recovery permintaan bersamaan stok sama tidak membuat saldo negatif
+00:33 +12: M3 stok, pemberian dan recovery koreksi efektif berulang, asal dan alasan utuh; saldo/jumlah negatif ditolak
+00:34 +13: M3 stok, pemberian dan recovery snapshot tetap sesudah harga/rate; actual lebih besar tidak mengembalikan stok
+00:35 +14: M3 stok, pemberian dan recovery double tap dan retry memakai satu ID hanya satu feeding dan satu out
+00:36 +15: M3 stok, pemberian dan recovery batal setelah rate/jam/Lewati pulih tepat, skipped tidak dibagi ulang
+00:38 +16: M3 stok, pemberian dan recovery pemberian lama atau hari lampau tidak dapat batal
+00:39 +17: M3 stok, pemberian dan recovery rollback seluruh bisnis, niat tetap prepared; reopen dan retry sama ID
+00:41 +18: M3 stok, pemberian dan recovery restart setelah niat sebelum bisnis tidak melakukan retry otomatis
+00:42 +19: M3 stok, pemberian dan recovery migrasi v2 menjaga cycle/rate/jam/slot dan master
+00:43 +20: M3 stok, pemberian dan recovery UI recovery memeriksa ID dahulu dan tidak retry saat baru dibuka
+00:46 +21: M4 sampling, populasi, panen dan pembatalan sampling setelah pakan: kebutuhan360 sisa210 snapshot tetap
+00:48 +22: M4 sampling, populasi, panen dan pembatalan kematian melebihi populasi rollback dan seluruh sisa boleh mati
+00:49 +23: M4 sampling, populasi, panen dan pembatalan parsial snapshot100000 tetap setelah sampling dan validasi
+00:50 +24: M4 sampling, populasi, panen dan pembatalan batal lintas kegiatan menolak lanjutan dan memulihkan tepat
+00:52 +25: M4 sampling, populasi, panen dan pembatalan sampling sample positif dan tidak lebih populasi; batal boleh sampling lagi
+00:54 +26: M4 sampling, populasi, panen dan pembatalan panen akhir tepat sisa idempotent dan siklus selesai terkunci
+00:55 +27: M4 sampling, populasi, panen dan pembatalan pratinjau akhir stale ditolak dan pembatalan hari lampau ditolak
+00:57 +28: M4 sampling, populasi, panen dan pembatalan rollback penutupan dan recovery ID sama setelah restart
+00:58 +29: M4 sampling, populasi, panen dan pembatalan sampling dan pembatalan ID sama tidak menggandakan perubahan
+00:59 +30: M4 sampling, populasi, panen dan pembatalan migrasi3 menjaga master snapshot pakan dan urutan lintas kegiatan
+01:01 +31: M4 sampling, populasi, panen dan pembatalan grading nomor tetap setelah batal, rencana pulih, retry tidak ganda
+01:02 +32: M4 sampling, populasi, panen dan pembatalan edit rencana dipertahankan saat grading batal; pratinjau lama ditolak
+01:03 +33: M4 sampling, populasi, panen dan pembatalan tanggal rencana invalid rollback grading; fleksibel tidak menunggu tujuh hari
+01:04 +34: M4 sampling, populasi, panen dan pembatalan migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana
+01:05 +35: M4 sampling, populasi, panen dan pembatalan pratinjau setelah grading, kematian dan pembatalan membaca kondisi terbaru tanpa mengubah snapshot
+01:07 +36: M4 sampling, populasi, panen dan pembatalan pratinjau harian membaca aktual/batal/Lewati tanpa mengubah ledger atau porsi tersimpan
+01:08 +37: M5 laporan periode, snapshot dan refresh panen akhir merangkum seluruh siklus dan biaya historis setelah reopen
+01:11 +38: M5 laporan periode, snapshot dan refresh batas tanggal inklusif satu/semua termasuk arsip partial final dan batal
+01:12 +39: M5 laporan periode, snapshot dan refresh snapshot tetap setelah harga rate sampling dan reopen schema4 tanpa migrasi baru
+01:15 +40: M5 laporan periode, snapshot dan refresh nilai per transaksi half-up dan laporan sesudah pemberian dibatalkan
+01:18 +41: Lokasi usaha atas tindakan pengguna migrasi4 menjaga master dan lokasi terkonfirmasi bertahan setelah reopen
+01:18 +42: Lokasi usaha atas tindakan pengguna gagal simpan atomik menjaga lokasi lama dan mengabaikan cache lokasi lama
+01:19 +43: Pakan otomatis, pengukuran dan migrasi form HP menyimpan suhu pH biaya dan kembali dengan database native
+01:23 +44: Pakan otomatis, pengukuran dan migrasi alur grading-pakan-laporan-XLSX tetap konsisten setelah reopen
+01:25 +45: Pakan otomatis, pengukuran dan migrasi XLSX sesudah batal mengecualikan biaya dan tidak menulis ulang pengukuran
+01:26 +46: Pakan otomatis, pengukuran dan migrasi pagi dingin aktual450, sore tetap625; snapshot immutable, retry dan reopen
+01:27 +47: Pakan otomatis, pengukuran dan migrasi 32C atau pH di luar rentang menyimpan aktual tanpa rekomendasi numerik
+01:29 +48: Pakan otomatis, pengukuran dan migrasi pengukuran kosong, stok kurang dan konfirmasi kelebihan ditolak utuh
+01:30 +49: Pakan otomatis, pengukuran dan migrasi harga/grading setelah pratinjau menolak snapshot stale
+01:32 +50: Pakan otomatis, pengukuran dan migrasi gagal teknis rollback lalu retry ID sama setelah reopen memotong stok sekali
+01:33 +51: Pakan otomatis, pengukuran dan migrasi Lewati tidak redistribusi, pembatalan pulihkan stok dan minta pengukuran baru
+01:34 +52: Pakan otomatis, pengukuran dan migrasi pergantian hari menolak tanggal/pengukuran lama tanpa menulis pemberian
+01:36 +53: Pakan otomatis, pengukuran dan migrasi migrasi6 ke7 aktivasi langsung menjaga riwayat dan niat prepared lama
+01:37 +54: (tearDownAll)
+01:37 +54: All tests passed!

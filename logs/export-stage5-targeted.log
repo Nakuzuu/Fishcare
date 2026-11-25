@@ -1,0 +1,48 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_export_test.dart
+00:00 +0: XLSX filter, snapshot, cancellation, exact totals and safe text
+00:00 +1: empty offline workbook keeps inclusive filter and zero genuine totals
+00:00 +2: large integers exported as exact text, control characters removed
+00:00 +3: save busy guard, cancellation and errors never report success
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: <1>
+  Actual: <2>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/report_export_test.dart:121:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/report_export_test.dart line 121
+The test description was:
+  save busy guard, cancellation and errors never report success
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +3 -1: save busy guard, cancellation and errors never report success [E]
+  Test failed. See exception logs above.
+  The test description was: save busy guard, cancellation and errors never report success
+  
+00:01 +3 -1: Some tests failed.
+
+Failing tests:
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_export_test.dart: save busy guard, cancellation and errors never report success

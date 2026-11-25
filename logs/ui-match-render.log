@@ -1,0 +1,45 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.6 available)
+  sqflite_android 2.4.4 (2.4.6 available)
+  sqflite_common 2.5.13+1 (2.5.17 available)
+  sqflite_darwin 2.4.4 (2.4.6 available)
+  sqflite_platform_interface 2.4.2 (2.4.4 available)
+  synchronized 3.4.2 (3.6.1+1 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.3 (2.4.4 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+11 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart
+00:00 +0: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: format tampilan uang, angka besar, tanggal dan zona penyedia
+00:00 +1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: (setUpAll)
+00:00 +1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: cuaca empty 360dp teks130 tanpa dummy atau koordinat utama
+00:01 +2: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: metric columns align and schedule removal preserves remaining times
+00:01 +3: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: metric columns align and schedule removal preserves remaining times
+00:01 +4: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: cuaca live 360dp teks130 tanpa dummy atau koordinat utama
+00:01 +5: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: cuaca live 360dp teks130 tanpa dummy atau koordinat utama
+00:01 +6: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match kolam 390.0 1.0
+00:01 +7: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: cuaca old 360dp teks130 tanpa dummy atau koordinat utama
+00:01 +8: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match tambah-kolam 390.0 1.0
+00:02 +9: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match tambah-kolam 390.0 1.0
+00:02 +10: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match tambah-kolam 390.0 1.0
+00:02 +11: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match tambah-kolam 390.0 1.0
+00:02 +12: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: detail kolam nama sekali dan identitas sekunder
+00:02 +13: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match siklus-baru 390.0 1.0
+00:02 +14: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_polish_test.dart: kartu siklus menyembunyikan ID panjang dan memformat snapshot
+00:02 +15: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 390.0 1.0
+00:02 +16: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 390.0 1.0
+00:03 +17: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 390.0 1.0
+00:03 +18: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match jam 390.0 1.0
+00:03 +19: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match ringkasan 360.0 1.3
+00:03 +20: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match kolam 360.0 1.3
+00:03 +21: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match tambah-kolam 360.0 1.3
+00:03 +22: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match siklus-baru 360.0 1.3
+00:04 +23: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 360.0 1.3
+00:04 +24: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match jam 360.0 1.3
+00:04 +25: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: (tearDownAll)
+00:04 +25: All tests passed!

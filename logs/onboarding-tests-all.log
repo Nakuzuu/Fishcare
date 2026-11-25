@@ -1,0 +1,504 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.6 available)
+  sqflite_android 2.4.4 (2.4.6 available)
+  sqflite_common 2.5.13+1 (2.5.17 available)
+  sqflite_darwin 2.4.4 (2.4.6 available)
+  sqflite_platform_interface 2.4.2 (2.4.4 available)
+  synchronized 3.4.2 (3.6.1+1 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.3 (2.4.4 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+11 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/action_payload_test.dart
+00:00 +0: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/action_payload_test.dart: angka nonfinite ditolak sebagai input invalid sebelum jurnal ditulis
+00:00 +1: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/action_payload_test.dart: payload kanonik tidak tergantung urutan key dan mempertahankan input
+00:00 +2: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: buka/refresh hanya koordinat tersimpan, tidak membaca HP
+00:00 +3: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_rules_test.dart: 100 ikan 100 gram rate3 menghasilkan 300 dan 150+150
+00:00 +4: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_rules_test.dart: 100 ikan 100 gram rate3 menghasilkan 300 dan 150+150
+00:00 +5: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: batal saat fix belum selesai mengabaikan hasil HP yang terlambat
+00:00 +6: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_rules_test.dart: 301 gram dibagi paling awal; total tetap tepat untuk 1–6 slot
+00:00 +7: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_rules_test.dart: 301 gram dibagi paling awal; total tetap tepat untuk 1–6 slot
+00:00 +8: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: HP ditolak melalui channel menjadi pesan; constructor tidak meminta lokasi
+00:00 +9: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: HP ditolak melalui channel menjadi pesan; constructor tidak meminta lokasi
+00:00 +10: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: HP ditolak melalui channel menjadi pesan; constructor tidak meminta lokasi
+00:00 +11: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: HP ditolak melalui channel menjadi pesan; constructor tidak meminta lokasi
+00:00 +12: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: HP ditolak melalui channel menjadi pesan; constructor tidak meminta lokasi
+00:01 +13: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +14: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +15: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +16: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +17: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +18: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +19: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +20: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +21: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +22: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +23: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +24: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +25: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +26: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +27: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +28: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +29: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +30: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +31: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +32: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +33: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +34: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +35: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +36: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +37: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +38: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +39: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +40: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +41: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/cycle_ui_test.dart: detail membedakan jam hari ini/besok; tidak menawarkan Berikan
+00:02 +42: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:03 +43: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:03 +44: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:03 +45: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:03 +46: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:03 +47: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: tombol ambil, batal konfirmasi, simpan, buka ulang tanpa ambil HP otomatis
+00:04 +48: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:04 +49: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:04 +50: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:04 +51: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:04 +52: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:05 +53: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:05 +54: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:05 +55: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:05 +56: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: kembali dari form menjaga draft sampai Buang dikonfirmasi
+00:05 +57: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: kegagalan Izin lokasi ditolak. menawarkan manual tanpa mengganti lama
+00:05 +58: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/business_weather_test.dart: kegagalan Izin lokasi ditolak. menawarkan manual tanpa mengganti lama
+00:05 +59: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:05 +60: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:05 +61: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:06 +62: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:06 +63: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:06 +64: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:06 +65: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/grading_test.dart: riwayat grading batal mempertahankan nomor, bobot dan alasan
+00:06 +66: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: 360dp teks130 keyboard: field, validasi dan Simpan dapat digulir
+00:06 +67: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 390.0 1.0
+00:07 +68: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_match_test.dart: design match detail-kolam 390.0 1.0
+00:07 +69: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:07 +70: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:07 +71: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:07 +72: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:08 +73: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/design_ui_test.dart: konfirmasi panjang dapat digulir pada360dp teks130 dan batal tidak menyimpan
+00:08 +74: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +75: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +76: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +77: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +78: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +79: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:08 +80: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +81: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +82: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +83: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +84: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +85: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +86: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/introduction_test.dart: splash menunggu preferensi; Beranda belum dibuat
+00:09 +87: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:09 +88: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:09 +89: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +90: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +91: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +92: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +93: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +94: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +95: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +96: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: empat tab tidak menampilkan hasil laporan rekaan atau halaman M0
+00:10 +97: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:10 +98: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:10 +99: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +100: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +101: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +102: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +103: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +104: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +105: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:11 +106: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/report_test.dart: empty/loading/gagal/retry dan filter yang berubah
+00:12 +107: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:12 +108: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:12 +109: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:12 +110: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:12 +111: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: simpan ganda saat pending hanya memanggil sekali dan daftar langsung berubah
+00:12 +112: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:12 +113: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +114: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +115: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +116: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +117: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +117: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/product_app_test.dart: duplikat dari penyimpanan ditampilkan dekat field; draft tetap
+M1 save: Instance of 'ValidationFailure'
+#0      TestRepository.save (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/product_app_test.dart:32:7)
+#1      _MasterFormState._save (package:fishcare_m0/product_app.dart:699:31)
+#2      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1224:21)
+#3      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:362:24)
+#4      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:758:11)
+#5      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:383:5)
+#6      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:314:7)
+#7      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:738:9)
+#8      PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:97:12)
+#9      PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:140:9)
+#10     _LinkedHashMapMixin.forEach (dart:_compact_hash:721:13)
+#11     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:138:18)
+#12     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:128:7)
+#13     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:538:19)
+#14     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:508:22)
+#15     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:473:11)
+#16     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:447:7)
+#17     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:404:5)
+#18     TestWidgetsFlutterBinding.handlePointerEventForSource.<anonymous closure> (package:flutter_test/src/binding.dart:1571:42)
+#19     TestWidgetsFlutterBinding.withPointerEventSource (package:flutter_test/src/binding.dart:1581:11)
+#20     TestWidgetsFlutterBinding.handlePointerEventForSource (package:flutter_test/src/binding.dart:1571:5)
+#21     WidgetTester.sendEventToBinding.<anonymous closure> (package:flutter_test/src/widget_tester.dart:869:15)
+#22     _rootRun (dart:async/zone_root.dart:35:13)
+#23     _CustomZone.run (dart:async/zone.dart:810:35)
+#24     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#25     WidgetTester.sendEventToBinding (package:flutter_test/src/widget_tester.dart:868:27)
+#26     TestGesture.up.<anonymous closure> (package:flutter_test/src/test_pointer.dart:587:26)
+#27     _rootRun (dart:async/zone_root.dart:35:13)
+#28     _CustomZone.run (dart:async/zone.dart:810:35)
+#29     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#30     TestGesture.up (package:flutter_test/src/test_pointer.dart:580:27)
+#31     WidgetController.tapAt.<anonymous closure> (package:flutter_test/src/controller.dart:1155:21)
+<asynchronous suspension>
+#32     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#33     main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/test/product_app_test.dart:107:7)
+<asynchronous suspension>
+#34     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#35     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+#36     StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+
+00:13 +118: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:13 +119: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:14 +120: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:14 +121: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/ui_render_after_test.dart: render after beranda 390.0dp teks1.0
+00:14 +122: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +123: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +124: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +125: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +126: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +127: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:14 +128: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:15 +129: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:15 +130: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:15 +131: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_render_test.dart: form pengukuran 360dp teks130 dapat digulir tanpa overflow
+00:15 +132: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:15 +133: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:15 +134: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:15 +135: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:15 +136: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:16 +137: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: AT50: harga awal dan biaya aktual1125g Rp16.875 terlihat sebelum konfirmasi
+00:16 +138: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/widget_test.dart: kembali saat request berjalan; hasil lama tidak mengubah layar SQLite
+M0 weather: SocketException: offline fixture tes
+dart:async/future_impl.dart 21:26                              _interceptError
+dart:async/future_impl.dart 52:23                              _interceptUserError
+dart:async/future_impl.dart 82:26                              _Completer.completeError
+test\widget_test.dart 46:22                                    main.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+test\widget_test.dart 33:7                                     main.<fn>
+package:flutter_test/src/widget_tester.dart 192:29             testWidgets.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:flutter_test/src/widget_tester.dart 189:25             testWidgets.<fn>.<fn>
+package:flutter_test/src/binding.dart 1953:19                  TestWidgetsFlutterBinding._runTestBody
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:flutter_test/src/binding.dart 1942:5                   TestWidgetsFlutterBinding._runTestBody
+dart:async/zone_root.dart 78:13                                _rootRunBinary
+dart:async/zone.dart 822:35                                    _CustomZone.runBinary
+package:flutter_test/src/binding.dart 1927:10                  TestWidgetsFlutterBinding._runTest
+package:flutter_test/src/binding.dart 2490:24                  AutomatedTestWidgetsFlutterBinding.runTest.<fn>
+package:fake_async/fake_async.dart 182:47                      FakeAsync.run.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:clock/src/default.dart 52:10                           withClock
+package:fake_async/fake_async.dart 182:15                      FakeAsync.run.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:fake_async/fake_async.dart 181:52                      FakeAsync.run
+package:flutter_test/src/binding.dart 2487:15                  AutomatedTestWidgetsFlutterBinding.runTest
+package:flutter_test/src/widget_tester.dart 184:24             testWidgets.<fn>
+package:test_api/src/backend/declarer.dart 253:25              Declarer.test.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:test_api/src/backend/declarer.dart 252:15              Declarer.test.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/declarer.dart 250:17              Declarer.test.<fn>
+package:test_api/src/backend/invoker.dart 318:17               Invoker._waitForOutstandingCallbacks.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/invoker.dart 314:5                Invoker._waitForOutstandingCallbacks
+package:test_api/src/backend/invoker.dart 457:21               Invoker._onRun.<fn>.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:test_api/src/backend/invoker.dart 455:15               Invoker._onRun.<fn>.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/invoker.dart 445:11               Invoker._onRun.<fn>.<fn>
+package:test_api/src/backend/invoker.dart 500:15               Invoker._guardIfGuarded
+package:test_api/src/backend/invoker.dart 444:9                Invoker._onRun.<fn>
+package:stack_trace/src/chain.dart 97:24                       Chain.capture.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:stack_trace/src/chain.dart 95:12                       Chain.capture
+package:test_api/src/backend/invoker.dart 442:11               Invoker._onRun
+package:test_api/src/backend/live_test_controller.dart 161:11  LiveTestController.run
+package:test_api/src/backend/remote_listener.dart 320:16       RemoteListener._runLiveTest.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/remote_listener.dart 319:5        RemoteListener._runLiveTest
+package:test_api/src/backend/remote_listener.dart 261:7        RemoteListener._serializeTest.<fn>
+dart:async/zone_root.dart 48:47                                _rootRunUnary
+dart:async/zone.dart 816:35                                    _CustomZone.runUnary
+dart:async/zone.dart 710:7                                     _CustomZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/zone_root.dart 56:13                                _rootRunUnary
+dart:async/zone.dart 816:35                                    _CustomZone.runUnary
+dart:async/zone.dart 710:7                                     _CustomZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/stream_controller.dart 898:13                       _StreamSinkWrapper.add
+package:stream_channel/src/guarantee_channel.dart 125:12       _GuaranteeSink.add
+package:stream_channel/src/multi_channel.dart 159:31           new _MultiChannel.<fn>
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:_internal/async_cast.dart 95:11                           CastStreamSubscription._onData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/stream_controller.dart 898:13                       _StreamSinkWrapper.add
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_pipe.dart 154:11                             _ForwardingStreamSubscription._add
+dart:async/stream_pipe.dart 252:10                             _MapStream._handleData
+dart:async/stream_pipe.dart 184:13                             _ForwardingStreamSubscription._handleData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:_http/websocket_impl.dart 1530:27                         new _WebSocketImpl._fromSocket.<fn>
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_transformers.dart 67:11                      _SinkTransformerStreamSubscription._add
+dart:async/stream_transformers.dart 13:11                      _EventSinkWrapper.add
+dart:_http/websocket_impl.dart 525:23                          _WebSocketProtocolTransformer._messageFrameEnd
+dart:_http/websocket_impl.dart 409:46                          _WebSocketProtocolTransformer.add
+dart:async/stream_transformers.dart 115:24                     _SinkTransformerStreamSubscription._handleData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:io-patch/socket_patch.dart 2906:41                        _Socket._onData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:io-patch/socket_patch.dart 2344:31                        new _RawSocket.<fn>
+dart:io-patch/socket_patch.dart 1679:14                        _NativeSocket.issueReadEvent.issue
+dart:async/schedule_microtask.dart 40:35                       _microtaskLoop
+dart:async/schedule_microtask.dart 49:5                        _startMicrotaskLoop
+
+00:17 +139: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: pengukuran wajib; kondisi32C boleh dicatat dengan rekomendasi kosong; batal tidak menyimpan
+00:17 +140: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/widget_test.dart: error jaringan menghentikan loading dan penyimpanan lokal tetap tersedia
+M0 weather: SocketException: offline fixture tes
+dart:async/future_impl.dart 21:26                              _interceptError
+dart:async/future_impl.dart 52:23                              _interceptUserError
+dart:async/future_impl.dart 82:26                              _Completer.completeError
+test\widget_test.dart 66:22                                    main.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+test\widget_test.dart 58:7                                     main.<fn>
+package:flutter_test/src/widget_tester.dart 192:29             testWidgets.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:flutter_test/src/widget_tester.dart 189:25             testWidgets.<fn>.<fn>
+package:flutter_test/src/binding.dart 1953:19                  TestWidgetsFlutterBinding._runTestBody
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:flutter_test/src/binding.dart 1942:5                   TestWidgetsFlutterBinding._runTestBody
+dart:async/zone_root.dart 78:13                                _rootRunBinary
+dart:async/zone.dart 822:35                                    _CustomZone.runBinary
+package:flutter_test/src/binding.dart 1927:10                  TestWidgetsFlutterBinding._runTest
+package:flutter_test/src/binding.dart 2490:24                  AutomatedTestWidgetsFlutterBinding.runTest.<fn>
+package:fake_async/fake_async.dart 182:47                      FakeAsync.run.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:clock/src/default.dart 52:10                           withClock
+package:fake_async/fake_async.dart 182:15                      FakeAsync.run.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:fake_async/fake_async.dart 181:52                      FakeAsync.run
+package:flutter_test/src/binding.dart 2487:15                  AutomatedTestWidgetsFlutterBinding.runTest
+package:flutter_test/src/widget_tester.dart 184:24             testWidgets.<fn>
+package:test_api/src/backend/declarer.dart 253:25              Declarer.test.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:test_api/src/backend/declarer.dart 252:15              Declarer.test.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/declarer.dart 250:17              Declarer.test.<fn>
+package:test_api/src/backend/invoker.dart 318:17               Invoker._waitForOutstandingCallbacks.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/invoker.dart 314:5                Invoker._waitForOutstandingCallbacks
+package:test_api/src/backend/invoker.dart 457:21               Invoker._onRun.<fn>.<fn>.<fn>
+===== asynchronous gap ===========================
+dart:async/zone.dart 841:35                                    _CustomZone.registerUnaryCallback
+package:test_api/src/backend/invoker.dart 455:15               Invoker._onRun.<fn>.<fn>.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/invoker.dart 445:11               Invoker._onRun.<fn>.<fn>
+package:test_api/src/backend/invoker.dart 500:15               Invoker._guardIfGuarded
+package:test_api/src/backend/invoker.dart 444:9                Invoker._onRun.<fn>
+package:stack_trace/src/chain.dart 97:24                       Chain.capture.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:stack_trace/src/chain.dart 95:12                       Chain.capture
+package:test_api/src/backend/invoker.dart 442:11               Invoker._onRun
+package:test_api/src/backend/live_test_controller.dart 161:11  LiveTestController.run
+package:test_api/src/backend/remote_listener.dart 320:16       RemoteListener._runLiveTest.<fn>
+dart:async/zone_root.dart 35:13                                _rootRun
+dart:async/zone.dart 810:35                                    _CustomZone.run
+dart:async/zone_api.dart 165:6                                 _runZoned
+dart:async/zone_api.dart 91:10                                 runZoned
+package:test_api/src/backend/remote_listener.dart 319:5        RemoteListener._runLiveTest
+package:test_api/src/backend/remote_listener.dart 261:7        RemoteListener._serializeTest.<fn>
+dart:async/zone_root.dart 48:47                                _rootRunUnary
+dart:async/zone.dart 816:35                                    _CustomZone.runUnary
+dart:async/zone.dart 710:7                                     _CustomZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/zone_root.dart 56:13                                _rootRunUnary
+dart:async/zone.dart 816:35                                    _CustomZone.runUnary
+dart:async/zone.dart 710:7                                     _CustomZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/stream_controller.dart 898:13                       _StreamSinkWrapper.add
+package:stream_channel/src/guarantee_channel.dart 125:12       _GuaranteeSink.add
+package:stream_channel/src/multi_channel.dart 159:31           new _MultiChannel.<fn>
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:_internal/async_cast.dart 95:11                           CastStreamSubscription._onData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:async/stream_controller.dart 898:13                       _StreamSinkWrapper.add
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_pipe.dart 154:11                             _ForwardingStreamSubscription._add
+dart:async/stream_pipe.dart 252:10                             _MapStream._handleData
+dart:async/stream_pipe.dart 184:13                             _ForwardingStreamSubscription._handleData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:_http/websocket_impl.dart 1530:27                         new _WebSocketImpl._fromSocket.<fn>
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_transformers.dart 67:11                      _SinkTransformerStreamSubscription._add
+dart:async/stream_transformers.dart 13:11                      _EventSinkWrapper.add
+dart:_http/websocket_impl.dart 525:23                          _WebSocketProtocolTransformer._messageFrameEnd
+dart:_http/websocket_impl.dart 409:46                          _WebSocketProtocolTransformer.add
+dart:async/stream_transformers.dart 115:24                     _SinkTransformerStreamSubscription._handleData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:io-patch/socket_patch.dart 2906:41                        _Socket._onData
+dart:async/zone.dart 963:10                                    _RootZone.runUnaryGuarded
+dart:async/stream_impl.dart 381:11                             _BufferingStreamSubscription._sendData
+dart:async/stream_impl.dart 312:7                              _BufferingStreamSubscription._add
+dart:async/stream_controller.dart 798:19                       _SyncStreamControllerDispatch._sendData
+dart:async/stream_controller.dart 663:7                        _StreamController._add
+dart:async/stream_controller.dart 618:5                        _StreamController.add
+dart:io-patch/socket_patch.dart 2344:31                        new _RawSocket.<fn>
+dart:io-patch/socket_patch.dart 1679:14                        _NativeSocket.issueReadEvent.issue
+dart:async/schedule_microtask.dart 40:35                       _microtaskLoop
+dart:async/schedule_microtask.dart 49:5                        _startMicrotaskLoop
+
+00:17 +141: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: pemberian dingin menyimpan pengukuran/payload sama sekali; buka form baru kosong
+00:18 +142: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: harga berubah sebelum tinjau harus ditampilkan dan ditinjau ulang
+00:18 +143: C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/test/water_feeding_test.dart: snapshot lama tanpa pengukuran tidak ditampilkan sebagai nol
+00:18 +144: All tests passed!

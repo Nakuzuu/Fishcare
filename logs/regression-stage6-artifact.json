@@ -1,0 +1,14 @@
+{
+  "version": "0.10.1+14",
+  "sha256": "AD2AE216031EB836EA6823887772725441371C03208A550331429D69D2DAFF64",
+  "tests_standard": 114,
+  "migration": "5 to 7, passed",
+  "tests_native": 53,
+  "api": 36,
+  "bytes": 152440508,
+  "installation": "passed",
+  "model": "Infinix X6879",
+  "path": "C:\\Users\\basti\\OneDrive\\Lampiran\\Documents\\FishCare V2\\artifacts\\revisi-tahap6\\fishcare-0.10.1-debug.apk",
+  "schema": 7,
+  "android": "16"
+}

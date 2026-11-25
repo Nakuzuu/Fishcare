@@ -1,0 +1,30 @@
+{
+  "version": "0.9.0+12",
+  "schema": 7,
+  "lockfile_unchanged": true,
+  "journal_idempotency_unchanged": true,
+  "old_schema_definitions_unchanged": true,
+  "changed_lib": [
+    "app_m0\\lib\\activity_ui.dart",
+    "app_m0\\lib\\cycle_repository.dart",
+    "app_m0\\lib\\cycle_rules.dart",
+    "app_m0\\lib\\cycle_ui.dart",
+    "app_m0\\lib\\dashboard_ui.dart",
+    "app_m0\\lib\\feeding_input.dart",
+    "app_m0\\lib\\feeding_policy.dart",
+    "app_m0\\lib\\feeding_schema.dart",
+    "app_m0\\lib\\feed_repository.dart",
+    "app_m0\\lib\\feed_ui.dart",
+    "app_m0\\lib\\lifecycle_ui.dart",
+    "app_m0\\lib\\master_repository.dart",
+    "app_m0\\lib\\report_repository.dart",
+    "app_m0\\lib\\report_ui.dart",
+    "app_m0\\lib\\water_feeding_ui.dart",
+    "app_m0\\lib\\water_snapshot_ui.dart"
+  ],
+  "tests_passed": 106,
+  "native_tests_run": false,
+  "android_connected": false,
+  "native_tests_prepared": 8,
+  "render_checked": "360dp text130%, local font, isolated fixture; not Android screenshot"
+}

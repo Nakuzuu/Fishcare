@@ -1,0 +1,200 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  sqflite 2.4.4 (2.4.5 available)
+  sqflite_android 2.4.4 (2.4.5 available)
+  sqflite_common 2.5.13+1 (2.5.14 available)
+  sqflite_darwin 2.4.4 (2.4.4+1 available)
+  sqflite_platform_interface 2.4.2 (2.4.3 available)
+  synchronized 3.4.2 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/integration_test/all_database_test.dart
+Running Gradle task 'assembleDebug'...                          
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/basti/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Running Gradle task 'assembleDebug'...                             32.3s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           4.8s
+00:00 +0: M0 SQLite SQLite native menyimpan dan membuka ulang koneksi tanpa menimpa marker
+00:00 +1: M1 master nama lintas kapitalisasi dan arsip tetap unik; rollback utuh
+00:01 +2: M1 master create ulang ID sama tidak ganda; harga invalid dan update stale ditolak
+00:01 +3: M1 master file data tetap saat repository dan koneksi dibuka ulang
+00:01 +4: M2 siklus dan migrasi start atomic, retry sama id tidak ganda, siklus aktif kedua ditolak
+00:02 +5: M2 siklus dan migrasi jam duplikat dan kegagalan insert rate rollback seluruh start
+00:02 +6: M2 siklus dan migrasi ubah jam sebelum membuka detail: hari ini tetap besok mengganti, rate langsung
+00:03 +7: M2 siklus dan migrasi migrasi v1 mempertahankan master termasuk arsip dan harga
+00:04 +8: M2 siklus dan migrasi pratinjau rate otomatis tidak mengganti rate manual atau menulis slot
+00:04 +9: M2 siklus dan migrasi pratinjau memakai jam hari ini, besok memakai template efektif tanpa materialisasi
+00:05 +10: M3 stok, pemberian dan recovery dua kolam berbagi stok: kurang ditolak utuh
+00:06 +11: M3 stok, pemberian dan recovery permintaan bersamaan stok sama tidak membuat saldo negatif
+00:07 +12: M3 stok, pemberian dan recovery koreksi efektif berulang, asal dan alasan utuh; saldo/jumlah negatif ditolak
+00:08 +13: M3 stok, pemberian dan recovery snapshot tetap sesudah harga/rate; actual lebih besar tidak mengembalikan stok
+00:09 +14: M3 stok, pemberian dan recovery double tap dan retry memakai satu ID hanya satu feeding dan satu out
+00:10 +15: M3 stok, pemberian dan recovery batal setelah rate/jam/Lewati pulih tepat, skipped tidak dibagi ulang
+00:11 +16: M3 stok, pemberian dan recovery pemberian lama atau hari lampau tidak dapat batal
+00:12 +17: M3 stok, pemberian dan recovery rollback seluruh bisnis, niat tetap prepared; reopen dan retry sama ID
+00:13 +18: M3 stok, pemberian dan recovery restart setelah niat sebelum bisnis tidak melakukan retry otomatis
+00:13 +19: M3 stok, pemberian dan recovery migrasi v2 menjaga cycle/rate/jam/slot dan master
+00:14 +20: M3 stok, pemberian dan recovery UI recovery memeriksa ID dahulu dan tidak retry saat baru dibuka
+00:17 +21: M4 sampling, populasi, panen dan pembatalan sampling setelah pakan: kebutuhan360 sisa210 snapshot tetap
+00:18 +22: M4 sampling, populasi, panen dan pembatalan kematian melebihi populasi rollback dan seluruh sisa boleh mati
+00:19 +23: M4 sampling, populasi, panen dan pembatalan parsial snapshot100000 tetap setelah sampling dan validasi
+00:19 +24: M4 sampling, populasi, panen dan pembatalan batal lintas kegiatan menolak lanjutan dan memulihkan tepat
+00:21 +25: M4 sampling, populasi, panen dan pembatalan sampling sample positif dan tidak lebih populasi; batal boleh sampling lagi
+00:22 +26: M4 sampling, populasi, panen dan pembatalan panen akhir tepat sisa idempotent dan siklus selesai terkunci
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: throws <Instance of 'ValidationFailure'>
+  Actual: <Instance of 'Future<void>'>
+   Which: threw JsonUnsupportedObjectError:<Converting object to an encodable object failed: NaN>
+          stack dart:convert
+jsonEncode
+                package:fishcare_m0/action_payload.dart 13:5
+canonicalPayload
+                package:fishcare_m0/action_journal.dart 34:21
+ActionJournal.prepare
+                package:fishcare_m0/action_journal.dart 106:11
+ActionJournal.guard
+                package:fishcare_m0/feed_repository.dart 180:19
+FeedRepository.run
+                C:/Users/basti/OneDrive/Lampiran/Documents/FishCare
+V2/app_m0/integration_test/lifecycle_transactions_test.dart 35:12   main.run
+                C:/Users/basti/OneDrive/Lampiran/Documents/FishCare
+V2/app_m0/integration_test/lifecycle_transactions_test.dart 221:9   main.<fn>
+                ===== asynchronous gap ===========================
+                package:matcher
+expectLater
+                package:flutter_test/src/widget_tester.dart 507:8
+expectLater
+                C:/Users/basti/OneDrive/Lampiran/Documents/FishCare
+V2/app_m0/integration_test/lifecycle_transactions_test.dart 220:13  main.<fn>
+                ===== asynchronous gap ===========================
+                dart:async
+_CustomZone.registerUnaryCallback
+                C:/Users/basti/OneDrive/Lampiran/Documents/FishCare
+V2/app_m0/integration_test/lifecycle_transactions_test.dart 208:5   main.<fn>
+                package:flutter_test/src/widget_tester.dart 192:29
+testWidgets.<fn>.<fn>
+                ===== asynchronous gap ===========================
+                dart:async
+_CustomZone.registerUnaryCallback
+                package:flutter_test/src/widget_tester.dart 189:25
+testWidgets.<fn>.<fn>
+                package:flutter_test/src/binding.dart 1953:19
+TestWidgetsFlutterBinding._runTestBody
+                ===== asynchronous gap ===========================
+                dart:async
+_CustomZone.registerUnaryCallback
+                package:flutter_test/src/binding.dart 1942:5
+TestWidgetsFlutterBinding._runTestBody
+                dart:async
+_CustomZone.runBinary
+                package:flutter_test/src/binding.dart 1927:10
+TestWidgetsFlutterBinding._runTest
+                package:flutter_test/src/binding.dart 3060:12
+LiveTestWidgetsFlutterBinding.runTest
+                package:integration_test/integration_test.dart 237:17
+IntegrationTestWidgetsFlutterBinding.runTest
+                package:flutter_test/src/widget_tester.dart 184:24
+testWidgets.<fn>
+                ===== asynchronous gap ===========================
+                package:stream_channel
+_GuaranteeSink.add
+                C:/Users/basti/AppData/Local/Temp/flutter_tools.f8d01dbd/flutter_test_listener.fa19310d/listener.dart
+56:22             main.<fn>
+
+          which is not an instance of 'ValidationFailure'
+
+When the exception was thrown, this was the stack:
+#0      fail (package:matcher/src/expect/expect.dart:187:31)
+#1      _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:155:13)
+<asynchronous suspension>
+<asynchronous suspension>
+#8      expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/integration_test/lifecycle_transactions_test.dart:220:7)
+<asynchronous suspension>
+#10     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#11     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+The test description was:
+  panen akhir tepat sisa idempotent dan siklus selesai terkunci
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:23 +26 -1: M4 sampling, populasi, panen dan pembatalan panen akhir tepat sisa idempotent dan siklus selesai terkunci [E]
+  Test failed. See exception logs above.
+  The test description was: panen akhir tepat sisa idempotent dan siklus selesai terkunci
+  
+00:23 +26 -1: M4 sampling, populasi, panen dan pembatalan pratinjau akhir stale ditolak dan pembatalan hari lampau ditolak
+00:23 +27 -1: M4 sampling, populasi, panen dan pembatalan rollback penutupan dan recovery ID sama setelah restart
+00:24 +28 -1: M4 sampling, populasi, panen dan pembatalan sampling dan pembatalan ID sama tidak menggandakan perubahan
+00:24 +29 -1: M4 sampling, populasi, panen dan pembatalan migrasi3 menjaga master snapshot pakan dan urutan lintas kegiatan
+00:26 +30 -1: M4 sampling, populasi, panen dan pembatalan grading nomor tetap setelah batal, rencana pulih, retry tidak ganda
+00:26 +31 -1: M4 sampling, populasi, panen dan pembatalan edit rencana dipertahankan saat grading batal; pratinjau lama ditolak
+00:27 +32 -1: M4 sampling, populasi, panen dan pembatalan tanggal rencana invalid rollback grading; fleksibel tidak menunggu tujuh hari
+00:28 +33 -1: M4 sampling, populasi, panen dan pembatalan migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following SqfliteDatabaseException was thrown running a test:
+DatabaseException(NOT NULL constraint failed: ponds.revision (code 1299 SQLITE_CONSTRAINT_NOTNULL))
+sql 'INSERT INTO ponds (id, name, name_key, created_at_ms, updated_at_ms) VALUES (?, ?, ?, ?, ?)'
+args [p, Kolam lama, kolam lama, 1, 1]
+
+When the exception was thrown, this was the stack:
+#0      wrapDatabaseException (package:sqflite_platform_interface/src/platform_exception.dart:12:7)
+<asynchronous suspension>
+#1      SqfliteDatabaseMixin.txnRawInsert.<anonymous closure> (package:sqflite_common/src/database_mixin.dart:665:14)
+<asynchronous suspension>
+#2      BasicLock.synchronized (package:synchronized/src/basic_lock.dart:38:16)
+<asynchronous suspension>
+#3      SqfliteDatabaseMixin.txnSynchronized (package:sqflite_common/src/database_mixin.dart:591:14)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///C:/Users/basti/OneDrive/Lampiran/Documents/FishCare%20V2/app_m0/integration_test/lifecycle_transactions_test.dart:614:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:28 +33 -2: M4 sampling, populasi, panen dan pembatalan migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana [E]
+  Test failed. See exception logs above.
+  The test description was: migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana
+  
+00:28 +33 -2: M4 sampling, populasi, panen dan pembatalan pratinjau setelah grading, kematian dan pembatalan membaca kondisi terbaru tanpa mengubah snapshot
+00:29 +34 -2: M4 sampling, populasi, panen dan pembatalan pratinjau harian membaca aktual/batal/Lewati tanpa mengubah ledger atau porsi tersimpan
+00:31 +35 -2: M5 laporan periode, snapshot dan refresh batas tanggal inklusif satu/semua termasuk arsip partial final dan batal
+00:32 +36 -2: M5 laporan periode, snapshot dan refresh snapshot tetap setelah harga rate sampling dan reopen schema4 tanpa migrasi baru
+00:34 +37 -2: M5 laporan periode, snapshot dan refresh nilai per transaksi half-up dan laporan sesudah pemberian dibatalkan
+00:36 +38 -2: Lokasi usaha atas tindakan pengguna migrasi4 menjaga master dan lokasi terkonfirmasi bertahan setelah reopen
+00:37 +39 -2: Lokasi usaha atas tindakan pengguna gagal simpan atomik menjaga lokasi lama dan mengabaikan cache lokasi lama
+00:37 +40 -2: Pakan otomatis, pengukuran dan migrasi alur grading-pakan-laporan-XLSX tetap konsisten setelah reopen
+00:39 +41 -2: Pakan otomatis, pengukuran dan migrasi XLSX sesudah batal mengecualikan biaya dan tidak menulis ulang pengukuran
+00:40 +42 -2: Pakan otomatis, pengukuran dan migrasi pagi dingin aktual450, sore tetap625; snapshot immutable, retry dan reopen
+00:41 +43 -2: Pakan otomatis, pengukuran dan migrasi 32C atau pH di luar rentang menyimpan aktual tanpa rekomendasi numerik
+00:42 +44 -2: Pakan otomatis, pengukuran dan migrasi pengukuran kosong, stok kurang dan konfirmasi kelebihan ditolak utuh
+00:43 +45 -2: Pakan otomatis, pengukuran dan migrasi harga/grading setelah pratinjau menolak snapshot stale
+00:44 +46 -2: Pakan otomatis, pengukuran dan migrasi gagal teknis rollback lalu retry ID sama setelah reopen memotong stok sekali
+00:45 +47 -2: Pakan otomatis, pengukuran dan migrasi Lewati tidak redistribusi, pembatalan pulihkan stok dan minta pengukuran baru
+00:46 +48 -2: Pakan otomatis, pengukuran dan migrasi pergantian hari menolak tanggal/pengukuran lama tanpa menulis pemberian
+00:47 +49 -2: Pakan otomatis, pengukuran dan migrasi migrasi6 ke7 aktivasi langsung menjaga riwayat dan niat prepared lama
+00:48 +50 -2: (tearDownAll)
+00:48 +50 -2: Some tests failed.
+
+Failing tests:
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/integration_test/all_database_test.dart: M4 sampling, populasi, panen dan pembatalan migrasi skema5 memberi nomor sampling lama tanpa mengarang rencana
+  C:/Users/basti/OneDrive/Lampiran/Documents/FishCare V2/app_m0/integration_test/all_database_test.dart: M4 sampling, populasi, panen dan pembatalan panen akhir tepat sisa idempotent dan siklus selesai terkunci

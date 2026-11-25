@@ -1,0 +1,18 @@
+--- 
++++ 
+@@ -4,6 +4,7 @@
+ import 'product_app.dart';
+ import 'cycle_repository.dart';
+ import 'feed_repository.dart';
++import 'intro_store.dart';
+ 
+ void main() {
+   WidgetsFlutterBinding.ensureInitialized();
+@@ -11,6 +12,7 @@
+   final cycles = SqliteCycleRepository(master);
+   runApp(
+     FishCareApp(
++      introStore: const AndroidIntroStore(),
+       repository: master,
+       cycles: cycles,
+       feeds: FeedRepository(master, cycles),

@@ -1,0 +1,12 @@
+{
+  "version": "0.9.0+12",
+  "schema": 7,
+  "application_id": "id.ac.fishcare.m0",
+  "bytes": 152431604,
+  "sha256": "EE54E104E795C58A11A2AE973120DC7770EFCD31F82A855C6C75B80FA7E2591D",
+  "apk": "C:\\Users\\basti\\OneDrive\\Lampiran\\Documents\\FishCare V2\\artifacts\\revisi-tahap4\\fishcare-0.9.0-debug.apk",
+  "standard_tests_passed": 106,
+  "android_native_tests_run": false,
+  "installed": false,
+  "automatic_policy_active_in_new_apk": true
+}

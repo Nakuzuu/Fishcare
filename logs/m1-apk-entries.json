@@ -1,0 +1,752 @@
+﻿[
+    {
+        "FullName":  "META-INF/com/android/build/gradle/app-metadata.properties",
+        "Length":  56,
+        "CompressedLength":  52
+    },
+    {
+        "FullName":  "classes.dex",
+        "Length":  10653224,
+        "CompressedLength":  4196634
+    },
+    {
+        "FullName":  "classes2.dex",
+        "Length":  17420,
+        "CompressedLength":  8148
+    },
+    {
+        "FullName":  "classes3.dex",
+        "Length":  50044,
+        "CompressedLength":  24161
+    },
+    {
+        "FullName":  "classes4.dex",
+        "Length":  8132,
+        "CompressedLength":  3725
+    },
+    {
+        "FullName":  "classes5.dex",
+        "Length":  36404,
+        "CompressedLength":  11896
+    },
+    {
+        "FullName":  "classes6.dex",
+        "Length":  1720,
+        "CompressedLength":  902
+    },
+    {
+        "FullName":  "classes7.dex",
+        "Length":  656,
+        "CompressedLength":  406
+    },
+    {
+        "FullName":  "classes8.dex",
+        "Length":  1228,
+        "CompressedLength":  721
+    },
+    {
+        "FullName":  "lib/arm64-v8a/libVkLayer_khronos_validation.so",
+        "Length":  15240080,
+        "CompressedLength":  15240080
+    },
+    {
+        "FullName":  "lib/arm64-v8a/libflutter.so",
+        "Length":  38828704,
+        "CompressedLength":  38828704
+    },
+    {
+        "FullName":  "assets/flutter_assets/AssetManifest.bin",
+        "Length":  2,
+        "CompressedLength":  4
+    },
+    {
+        "FullName":  "assets/flutter_assets/FontManifest.json",
+        "Length":  82,
+        "CompressedLength":  69
+    },
+    {
+        "FullName":  "assets/flutter_assets/NOTICES.Z",
+        "Length":  98963,
+        "CompressedLength":  96989
+    },
+    {
+        "FullName":  "assets/flutter_assets/NativeAssetsManifest.json",
+        "Length":  45,
+        "CompressedLength":  47
+    },
+    {
+        "FullName":  "assets/flutter_assets/fonts/MaterialIcons-Regular.otf",
+        "Length":  1645184,
+        "CompressedLength":  593046
+    },
+    {
+        "FullName":  "assets/flutter_assets/isolate_snapshot_data",
+        "Length":  11647016,
+        "CompressedLength":  4405748
+    },
+    {
+        "FullName":  "assets/flutter_assets/kernel_blob.bin",
+        "Length":  44825560,
+        "CompressedLength":  15262588
+    },
+    {
+        "FullName":  "assets/flutter_assets/shaders/ink_sparkle.frag",
+        "Length":  21856,
+        "CompressedLength":  6183
+    },
+    {
+        "FullName":  "assets/flutter_assets/shaders/stretch_effect.frag",
+        "Length":  17616,
+        "CompressedLength":  4255
+    },
+    {
+        "FullName":  "assets/flutter_assets/vm_snapshot_data",
+        "Length":  0,
+        "CompressedLength":  2
+    },
+    {
+        "FullName":  "AndroidManifest.xml",
+        "Length":  6180,
+        "CompressedLength":  1831
+    },
+    {
+        "FullName":  "res/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "Length":  364,
+        "CompressedLength":  218
+    },
+    {
+        "FullName":  "res/animator/fragment_close_enter.xml",
+        "Length":  1128,
+        "CompressedLength":  395
+    },
+    {
+        "FullName":  "res/animator/fragment_close_exit.xml",
+        "Length":  1128,
+        "CompressedLength":  395
+    },
+    {
+        "FullName":  "res/animator/fragment_fade_enter.xml",
+        "Length":  452,
+        "CompressedLength":  265
+    },
+    {
+        "FullName":  "res/animator/fragment_fade_exit.xml",
+        "Length":  452,
+        "CompressedLength":  265
+    },
+    {
+        "FullName":  "res/animator/fragment_open_enter.xml",
+        "Length":  1128,
+        "CompressedLength":  388
+    },
+    {
+        "FullName":  "res/animator/fragment_open_exit.xml",
+        "Length":  1128,
+        "CompressedLength":  392
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_answer.xml",
+        "Length":  1356,
+        "CompressedLength":  663
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_answer_low.xml",
+        "Length":  1320,
+        "CompressedLength":  644
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_answer_video.xml",
+        "Length":  772,
+        "CompressedLength":  421
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_answer_video_low.xml",
+        "Length":  736,
+        "CompressedLength":  401
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_decline.xml",
+        "Length":  1528,
+        "CompressedLength":  734
+    },
+    {
+        "FullName":  "res/drawable-anydpi-v21/ic_call_decline_low.xml",
+        "Length":  1492,
+        "CompressedLength":  712
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_answer.png",
+        "Length":  472,
+        "CompressedLength":  472
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_answer_low.png",
+        "Length":  472,
+        "CompressedLength":  472
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_answer_video.png",
+        "Length":  254,
+        "CompressedLength":  254
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_answer_video_low.png",
+        "Length":  254,
+        "CompressedLength":  254
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_decline.png",
+        "Length":  375,
+        "CompressedLength":  375
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/ic_call_decline_low.png",
+        "Length":  375,
+        "CompressedLength":  375
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "Length":  212,
+        "CompressedLength":  212
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "Length":  225,
+        "CompressedLength":  225
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "Length":  212,
+        "CompressedLength":  212
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "Length":  225,
+        "CompressedLength":  225
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png",
+        "Length":  909,
+        "CompressedLength":  909
+    },
+    {
+        "FullName":  "res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "Length":  107,
+        "CompressedLength":  107
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_answer.png",
+        "Length":  270,
+        "CompressedLength":  270
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_answer_low.png",
+        "Length":  270,
+        "CompressedLength":  270
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_answer_video.png",
+        "Length":  199,
+        "CompressedLength":  199
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_answer_video_low.png",
+        "Length":  199,
+        "CompressedLength":  199
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_decline.png",
+        "Length":  201,
+        "CompressedLength":  201
+    },
+    {
+        "FullName":  "res/drawable-ldpi-v4/ic_call_decline_low.png",
+        "Length":  201,
+        "CompressedLength":  201
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_answer.png",
+        "Length":  317,
+        "CompressedLength":  317
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_answer_low.png",
+        "Length":  317,
+        "CompressedLength":  317
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_answer_video.png",
+        "Length":  206,
+        "CompressedLength":  206
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_answer_video_low.png",
+        "Length":  206,
+        "CompressedLength":  206
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_decline.png",
+        "Length":  264,
+        "CompressedLength":  264
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/ic_call_decline_low.png",
+        "Length":  264,
+        "CompressedLength":  264
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "Length":  215,
+        "CompressedLength":  215
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "Length":  223,
+        "CompressedLength":  223
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "Length":  215,
+        "CompressedLength":  215
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "Length":  223,
+        "CompressedLength":  223
+    },
+    {
+        "FullName":  "res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "Length":  98,
+        "CompressedLength":  98
+    },
+    {
+        "FullName":  "res/drawable-v21/launch_background.xml",
+        "Length":  344,
+        "CompressedLength":  185
+    },
+    {
+        "FullName":  "res/drawable-v21/notification_action_background.xml",
+        "Length":  1180,
+        "CompressedLength":  467
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_answer.png",
+        "Length":  623,
+        "CompressedLength":  623
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_answer_low.png",
+        "Length":  623,
+        "CompressedLength":  623
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_answer_video.png",
+        "Length":  290,
+        "CompressedLength":  290
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_answer_video_low.png",
+        "Length":  290,
+        "CompressedLength":  290
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_decline.png",
+        "Length":  452,
+        "CompressedLength":  452
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/ic_call_decline_low.png",
+        "Length":  452,
+        "CompressedLength":  452
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "Length":  221,
+        "CompressedLength":  221
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "Length":  252,
+        "CompressedLength":  252
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "Length":  221,
+        "CompressedLength":  221
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "Length":  247,
+        "CompressedLength":  247
+    },
+    {
+        "FullName":  "res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "Length":  138,
+        "CompressedLength":  138
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_answer.png",
+        "Length":  884,
+        "CompressedLength":  884
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_answer_low.png",
+        "Length":  884,
+        "CompressedLength":  884
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_answer_video.png",
+        "Length":  384,
+        "CompressedLength":  384
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_answer_video_low.png",
+        "Length":  384,
+        "CompressedLength":  384
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_decline.png",
+        "Length":  628,
+        "CompressedLength":  628
+    },
+    {
+        "FullName":  "res/drawable-xxhdpi-v4/ic_call_decline_low.png",
+        "Length":  628,
+        "CompressedLength":  628
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_answer.png",
+        "Length":  1171,
+        "CompressedLength":  1171
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_answer_low.png",
+        "Length":  1171,
+        "CompressedLength":  1171
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_answer_video.png",
+        "Length":  465,
+        "CompressedLength":  465
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png",
+        "Length":  465,
+        "CompressedLength":  465
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_decline.png",
+        "Length":  823,
+        "CompressedLength":  823
+    },
+    {
+        "FullName":  "res/drawable-xxxhdpi-v4/ic_call_decline_low.png",
+        "Length":  823,
+        "CompressedLength":  823
+    },
+    {
+        "FullName":  "res/drawable/notification_bg.xml",
+        "Length":  532,
+        "CompressedLength":  252
+    },
+    {
+        "FullName":  "res/drawable/notification_bg_low.xml",
+        "Length":  532,
+        "CompressedLength":  252
+    },
+    {
+        "FullName":  "res/drawable/notification_icon_background.xml",
+        "Length":  372,
+        "CompressedLength":  184
+    },
+    {
+        "FullName":  "res/drawable/notification_tile_bg.xml",
+        "Length":  304,
+        "CompressedLength":  172
+    },
+    {
+        "FullName":  "res/layout-v21/notification_action.xml",
+        "Length":  1052,
+        "CompressedLength":  485
+    },
+    {
+        "FullName":  "res/layout-v21/notification_action_tombstone.xml",
+        "Length":  1228,
+        "CompressedLength":  535
+    },
+    {
+        "FullName":  "res/layout-v21/notification_template_custom_big.xml",
+        "Length":  2456,
+        "CompressedLength":  786
+    },
+    {
+        "FullName":  "res/layout-v21/notification_template_icon_group.xml",
+        "Length":  988,
+        "CompressedLength":  418
+    },
+    {
+        "FullName":  "res/layout/custom_dialog.xml",
+        "Length":  612,
+        "CompressedLength":  309
+    },
+    {
+        "FullName":  "res/layout/ime_base_split_test_activity.xml",
+        "Length":  364,
+        "CompressedLength":  201
+    },
+    {
+        "FullName":  "res/layout/ime_secondary_split_test_activity.xml",
+        "Length":  876,
+        "CompressedLength":  417
+    },
+    {
+        "FullName":  "res/layout/notification_template_part_chronometer.xml",
+        "Length":  440,
+        "CompressedLength":  258
+    },
+    {
+        "FullName":  "res/layout/notification_template_part_time.xml",
+        "Length":  440,
+        "CompressedLength":  260
+    },
+    {
+        "FullName":  "res/mipmap-hdpi-v4/ic_launcher.png",
+        "Length":  544,
+        "CompressedLength":  544
+    },
+    {
+        "FullName":  "res/mipmap-mdpi-v4/ic_launcher.png",
+        "Length":  442,
+        "CompressedLength":  442
+    },
+    {
+        "FullName":  "res/mipmap-xhdpi-v4/ic_launcher.png",
+        "Length":  721,
+        "CompressedLength":  721
+    },
+    {
+        "FullName":  "res/mipmap-xxhdpi-v4/ic_launcher.png",
+        "Length":  1031,
+        "CompressedLength":  1031
+    },
+    {
+        "FullName":  "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "Length":  1443,
+        "CompressedLength":  1443
+    },
+    {
+        "FullName":  "resources.arsc",
+        "Length":  59092,
+        "CompressedLength":  59092
+    },
+    {
+        "FullName":  "DebugProbesKt.bin",
+        "Length":  1738,
+        "CompressedLength":  782
+    },
+    {
+        "FullName":  "LICENSE-junit.txt",
+        "Length":  11376,
+        "CompressedLength":  4182
+    },
+    {
+        "FullName":  "META-INF/androidx.activity_activity.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.annotation_annotation-experimental.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.arch.core_core-runtime.version",
+        "Length":  67,
+        "CompressedLength":  61
+    },
+    {
+        "FullName":  "META-INF/androidx.core_core-ktx.version",
+        "Length":  7,
+        "CompressedLength":  7
+    },
+    {
+        "FullName":  "META-INF/androidx.core_core.version",
+        "Length":  7,
+        "CompressedLength":  7
+    },
+    {
+        "FullName":  "META-INF/androidx.customview_customview.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.exifinterface_exifinterface.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.fragment_fragment.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.interpolator_interpolator.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-process.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.loader_loader.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.profileinstaller_profileinstaller.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.savedstate_savedstate.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.startup_startup-runtime.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.tracing_tracing.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.viewpager_viewpager.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.window.extensions.core_core.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.window_window-java.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/androidx.window_window.version",
+        "Length":  6,
+        "CompressedLength":  6
+    },
+    {
+        "FullName":  "META-INF/kotlinx_coroutines_android.version",
+        "Length":  5,
+        "CompressedLength":  5
+    },
+    {
+        "FullName":  "META-INF/kotlinx_coroutines_core.version",
+        "Length":  5,
+        "CompressedLength":  5
+    },
+    {
+        "FullName":  "META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler",
+        "Length":  54,
+        "CompressedLength":  50
+    },
+    {
+        "FullName":  "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory",
+        "Length":  52,
+        "CompressedLength":  49
+    },
+    {
+        "FullName":  "junit/runner/logo.gif",
+        "Length":  964,
+        "CompressedLength":  964
+    },
+    {
+        "FullName":  "junit/runner/smalllogo.gif",
+        "Length":  883,
+        "CompressedLength":  883
+    },
+    {
+        "FullName":  "kotlin/annotation/annotation.kotlin_builtins",
+        "Length":  1022,
+        "CompressedLength":  542
+    },
+    {
+        "FullName":  "kotlin/collections/collections.kotlin_builtins",
+        "Length":  8625,
+        "CompressedLength":  1890
+    },
+    {
+        "FullName":  "kotlin/concurrent/atomics/atomics.kotlin_builtins",
+        "Length":  2882,
+        "CompressedLength":  1111
+    },
+    {
+        "FullName":  "kotlin/coroutines/coroutines.kotlin_builtins",
+        "Length":  139,
+        "CompressedLength":  118
+    },
+    {
+        "FullName":  "kotlin/internal/internal.kotlin_builtins",
+        "Length":  596,
+        "CompressedLength":  359
+    },
+    {
+        "FullName":  "kotlin/kotlin.kotlin_builtins",
+        "Length":  30920,
+        "CompressedLength":  5503
+    },
+    {
+        "FullName":  "kotlin/ranges/ranges.kotlin_builtins",
+        "Length":  4353,
+        "CompressedLength":  1380
+    },
+    {
+        "FullName":  "kotlin/reflect/reflect.kotlin_builtins",
+        "Length":  4859,
+        "CompressedLength":  1447
+    }
+]

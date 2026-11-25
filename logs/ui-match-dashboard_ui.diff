@@ -1,0 +1,15 @@
+--- before/dashboard_ui.dart
++++ after/dashboard_ui.dart
+@@ -179,8 +179,10 @@
+             style: Theme.of(context).textTheme.bodySmall,
+           ),
+         ),
+-        ValueRow('Populasi', '${v.population} ekor'),
+-        ValueRow('Bobot rata-rata', '${decimalText(v.weightCg)} g/ikan'),
++        FishMetrics(
++          population: uiNumber(v.population),
++          weight: uiDecimal(v.weightCg),
++        ),
+       ],
+     );
+   }

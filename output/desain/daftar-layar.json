@@ -1,0 +1,394 @@
+[
+  {
+    "id": "home",
+    "title": "Beranda",
+    "group": "Utama",
+    "fr": "FR-01–04, FR-08 · AT-01, 19–22",
+    "index": 1,
+    "filename": "01-home.png"
+  },
+  {
+    "id": "ponds",
+    "title": "Kolam",
+    "group": "Kolam dan siklus",
+    "fr": "FR-01–02 · AT-01, 19",
+    "index": 2,
+    "filename": "02-ponds.png"
+  },
+  {
+    "id": "pondform",
+    "title": "Tambah kolam",
+    "group": "Kolam dan siklus",
+    "fr": "FR-01 · AT-27",
+    "index": 3,
+    "filename": "03-pondform.png"
+  },
+  {
+    "id": "pond",
+    "title": "Kolam Utara",
+    "group": "Kolam dan siklus",
+    "fr": "FR-01–02, FR-04–06 · AT-08–17",
+    "index": 4,
+    "filename": "04-pond.png"
+  },
+  {
+    "id": "cycle",
+    "title": "Mulai siklus",
+    "group": "Kolam dan siklus",
+    "fr": "FR-02, FR-04 · AT-02–03, 27",
+    "index": 5,
+    "filename": "05-cycle.png"
+  },
+  {
+    "id": "cycleconfirm",
+    "title": "Tinjau siklus",
+    "group": "Kolam dan siklus",
+    "fr": "FR-02 · AT-02–03",
+    "index": 6,
+    "filename": "06-cycleconfirm.png"
+  },
+  {
+    "id": "feed",
+    "title": "Pakan",
+    "group": "Pakan dan stok",
+    "fr": "FR-03–04 · AT-02, 04–10, 28",
+    "index": 7,
+    "filename": "07-feed.png"
+  },
+  {
+    "id": "feeding",
+    "title": "Catat pemberian",
+    "group": "Pakan dan stok",
+    "fr": "FR-03–04 · AT-04–07, 15",
+    "index": 8,
+    "filename": "08-feeding.png"
+  },
+  {
+    "id": "feedconfirm",
+    "title": "Tinjau pemberian",
+    "group": "Pakan dan stok",
+    "fr": "FR-04 · AT-04–05, 25, 31",
+    "index": 9,
+    "filename": "09-feedconfirm.png"
+  },
+  {
+    "id": "stock",
+    "title": "Pakan",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-07, 15, 29",
+    "index": 10,
+    "filename": "10-stock.png"
+  },
+  {
+    "id": "feedmaster",
+    "title": "Master pakan",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-15, 27",
+    "index": 11,
+    "filename": "11-feedmaster.png"
+  },
+  {
+    "id": "stockin",
+    "title": "Stok masuk",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-07, 29",
+    "index": 12,
+    "filename": "12-stockin.png"
+  },
+  {
+    "id": "stockconfirm",
+    "title": "Tinjau stok masuk",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-29",
+    "index": 13,
+    "filename": "13-stockconfirm.png"
+  },
+  {
+    "id": "correction",
+    "title": "Koreksi stok masuk",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-29",
+    "index": 14,
+    "filename": "14-correction.png"
+  },
+  {
+    "id": "correctionconfirm",
+    "title": "Tinjau koreksi",
+    "group": "Pakan dan stok",
+    "fr": "FR-03 · AT-29",
+    "index": 15,
+    "filename": "15-correctionconfirm.png"
+  },
+  {
+    "id": "rate",
+    "title": "Ubah feeding rate",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-02, FR-04 · AT-03, 08–10",
+    "index": 16,
+    "filename": "16-rate.png"
+  },
+  {
+    "id": "rateconfirm",
+    "title": "Tinjau rate baru",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-04 · AT-08–10",
+    "index": 17,
+    "filename": "17-rateconfirm.png"
+  },
+  {
+    "id": "schedule",
+    "title": "Jam pemberian",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-04 · AT-10, 26",
+    "index": 18,
+    "filename": "18-schedule.png"
+  },
+  {
+    "id": "sampling",
+    "title": "Sampling",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-08–09, 32",
+    "index": 19,
+    "filename": "19-sampling.png"
+  },
+  {
+    "id": "samplingconfirm",
+    "title": "Tinjau sampling",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-08, 32",
+    "index": 20,
+    "filename": "20-samplingconfirm.png"
+  },
+  {
+    "id": "death",
+    "title": "Catat kematian",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-11, 14, 34",
+    "index": 21,
+    "filename": "21-death.png"
+  },
+  {
+    "id": "deathconfirm",
+    "title": "Tinjau kematian",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-11, 34",
+    "index": 22,
+    "filename": "22-deathconfirm.png"
+  },
+  {
+    "id": "harvest",
+    "title": "Panen parsial",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-12, 33",
+    "index": 23,
+    "filename": "23-harvest.png"
+  },
+  {
+    "id": "harvestconfirm",
+    "title": "Tinjau panen parsial",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-05 · AT-33",
+    "index": 24,
+    "filename": "24-harvestconfirm.png"
+  },
+  {
+    "id": "final",
+    "title": "Panen akhir",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-06 · AT-12–14, 35",
+    "index": 25,
+    "filename": "25-final.png"
+  },
+  {
+    "id": "finalconfirm",
+    "title": "Tinjau penutupan",
+    "group": "Kegiatan budidaya",
+    "fr": "FR-06 · AT-13–14, 35",
+    "index": 26,
+    "filename": "26-finalconfirm.png"
+  },
+  {
+    "id": "report",
+    "title": "Laporan",
+    "group": "Laporan",
+    "fr": "FR-07 · AT-18–19, 37–40",
+    "index": 27,
+    "filename": "27-report.png"
+  },
+  {
+    "id": "filters",
+    "title": "Filter laporan",
+    "group": "Laporan",
+    "fr": "FR-07 · AT-37, 39",
+    "index": 28,
+    "filename": "28-filters.png"
+  },
+  {
+    "id": "transactions",
+    "title": "Transaksi pendukung",
+    "group": "Laporan",
+    "fr": "FR-07 · AT-37–40",
+    "index": 29,
+    "filename": "29-transactions.png"
+  },
+  {
+    "id": "feedingdetail",
+    "title": "Detail pemberian",
+    "group": "Laporan",
+    "fr": "FR-04, FR-07 · AT-15–17, 38",
+    "index": 30,
+    "filename": "30-feedingdetail.png"
+  },
+  {
+    "id": "feedingdetail14",
+    "title": "Detail pemberian",
+    "group": "Laporan",
+    "fr": "FR-04, FR-07 · AT-15–17, 38",
+    "index": 31,
+    "filename": "31-feedingdetail14.png"
+  },
+  {
+    "id": "harvestdetail",
+    "title": "Detail panen parsial",
+    "group": "Laporan",
+    "fr": "FR-05, FR-07 · AT-33, 38",
+    "index": 32,
+    "filename": "32-harvestdetail.png"
+  },
+  {
+    "id": "deathdetail",
+    "title": "Detail kematian",
+    "group": "Laporan",
+    "fr": "FR-05, FR-07 · AT-34, 38",
+    "index": 33,
+    "filename": "33-deathdetail.png"
+  },
+  {
+    "id": "cancel",
+    "title": "Batalkan kegiatan",
+    "group": "Laporan",
+    "fr": "FR-04–07 · AT-16–17, 30–34",
+    "index": 34,
+    "filename": "34-cancel.png"
+  },
+  {
+    "id": "settings",
+    "title": "Pengaturan",
+    "group": "Lokasi dan cuaca",
+    "fr": "FR-08–09 · AT-41–45",
+    "index": 35,
+    "filename": "35-settings.png"
+  },
+  {
+    "id": "location",
+    "title": "Lokasi usaha",
+    "group": "Lokasi dan cuaca",
+    "fr": "FR-08 · AT-41–45",
+    "index": 36,
+    "filename": "36-location.png"
+  },
+  {
+    "id": "locationresult",
+    "title": "Pilih hasil lokasi",
+    "group": "Lokasi dan cuaca",
+    "fr": "FR-08 · AT-21, 43–45",
+    "index": 37,
+    "filename": "37-locationresult.png"
+  },
+  {
+    "id": "candidate",
+    "title": "Tinjau calon lokasi",
+    "group": "Lokasi dan cuaca",
+    "fr": "FR-08 · AT-41, 43–45",
+    "index": 38,
+    "filename": "38-candidate.png"
+  },
+  {
+    "id": "locationerror",
+    "title": "Lokasi belum diperoleh",
+    "group": "Lokasi dan cuaca",
+    "fr": "FR-08 · AT-42–43",
+    "index": 39,
+    "filename": "39-locationerror.png"
+  },
+  {
+    "id": "empty",
+    "title": "Kolam",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-01 · AT-01",
+    "index": 40,
+    "filename": "40-empty.png"
+  },
+  {
+    "id": "loading",
+    "title": "Laporan",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-07 · AT-39–40",
+    "index": 41,
+    "filename": "41-loading.png"
+  },
+  {
+    "id": "error",
+    "title": "Stok tidak cukup",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-03–04 · AT-06–07",
+    "index": 42,
+    "filename": "42-error.png"
+  },
+  {
+    "id": "readerror",
+    "title": "Laporan",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-07 · AT-40",
+    "index": 43,
+    "filename": "43-readerror.png"
+  },
+  {
+    "id": "offline",
+    "title": "Beranda",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-08 · AT-20–22",
+    "index": 44,
+    "filename": "44-offline.png"
+  },
+  {
+    "id": "recovery",
+    "title": "Periksa pencatatan",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-03–06 · AT-25, 31",
+    "index": 45,
+    "filename": "45-recovery.png"
+  },
+  {
+    "id": "recoveryresult",
+    "title": "Hasil pemeriksaan",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-03–06 · AT-31",
+    "index": 46,
+    "filename": "46-recoveryresult.png"
+  },
+  {
+    "id": "keyboard",
+    "title": "Catat pemberian",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-04 · AT-27",
+    "index": 47,
+    "filename": "47-keyboard.png"
+  },
+  {
+    "id": "skip",
+    "title": "Lewati slot",
+    "group": "Keadaan dan pemulihan",
+    "fr": "FR-04 · AT-28, 30",
+    "index": 48,
+    "filename": "48-skip.png"
+  },
+  {
+    "id": "success",
+    "title": "Simulasi selesai",
+    "group": "Keadaan dan pemulihan",
+    "fr": "Lintas fitur · AT-19",
+    "index": 49,
+    "filename": "49-success.png"
+  }
+]

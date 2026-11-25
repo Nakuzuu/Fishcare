@@ -1,0 +1,14 @@
+{
+  "reader": "openpyxl 3.1.5",
+  "zip_crc": "pass",
+  "sheets": [
+    "Ringkasan",
+    "Transaksi"
+  ],
+  "feed_g": 1125,
+  "feed_cost_rp": 16875,
+  "legacy_measurement": "Tidak tercatat",
+  "formula_injection": "inline text",
+  "style": "header fill and freeze pass",
+  "scope": "fixture only, not Android picker"
+}

@@ -1,0 +1,13 @@
+--- before/feed_ui.dart
++++ after/feed_ui.dart
+@@ -658,9 +658,7 @@
+                     warning: true,
+                   ),
+                 ),
+-                Wrap(
+-                  spacing: 8,
+-                  runSpacing: 8,
++                FishActionGrid(
+                   children: [
+                     FilledButton(
+                       onPressed:

@@ -1,0 +1,91 @@
+{
+  "stage": "after",
+  "schema": 7,
+  "integrity": "ok",
+  "tables": {
+    "action_intents": {
+      "count": 36,
+      "sha256_original_columns": "be5e58ef40086ce667fe785ebcfff61dee221989419b5326b29257c76c1d6ba5",
+      "unchanged": true
+    },
+    "android_metadata": {
+      "count": 1,
+      "sha256_original_columns": "9d16f7edce809e052c68fe7f56ed863c6b58a3039a6d68b2aa34f2b0e197bfe5",
+      "unchanged": true
+    },
+    "business_settings": {
+      "count": 1,
+      "sha256_original_columns": "da7e461631ad82b18c67e455b554746cb5178794990be1c29853c346242cb4c6",
+      "unchanged": true
+    },
+    "cycle_rates": {
+      "count": 6,
+      "sha256_original_columns": "f05c315d13b054aa7868ec31eb83a8ed074d809d13a355dbdedcc0751c082e11",
+      "unchanged": true
+    },
+    "cycle_schedules": {
+      "count": 6,
+      "sha256_original_columns": "94921119ec3219c5683a81596248fc6df477c719978666051a4fcbb7ba35bc8b",
+      "unchanged": true
+    },
+    "cycle_slots": {
+      "count": 22,
+      "sha256_original_columns": "6dbd23526a819f53123dff357d742a25483f3f3df135e63a58782a43323a3893"
+    },
+    "cycle_times": {
+      "count": 12,
+      "sha256_original_columns": "82d620109a058661bb3bf3d1af64b601573ac609d71387280f60f35d95165d01",
+      "unchanged": true
+    },
+    "cycles": {
+      "count": 6,
+      "sha256_original_columns": "c788bdf943040900a7a1ccf0110690cdd0f8538862750fdfdb0310a6ac87a249",
+      "unchanged": true
+    },
+    "feedings": {
+      "count": 11,
+      "sha256_original_columns": "ca56fbb938a7b23622b328952df78d4d53326a8d22f3f5f28002120b3409c390",
+      "unchanged": true
+    },
+    "feeds": {
+      "count": 2,
+      "sha256_original_columns": "3a277e6b8b146c7799e1a3e8186b7b3dd922f47c237be8496f51d83263cb2eb7",
+      "unchanged": true
+    },
+    "operations": {
+      "count": 21,
+      "sha256_original_columns": "4cdf40c26afac7382a5ba111c79cfae70418d7744c9026b194aed0bbd13e16e8",
+      "unchanged": true
+    },
+    "ponds": {
+      "count": 5,
+      "sha256_original_columns": "07a009ad899b426d7949a5a3120d5dc36089c6396f379a34c74bbe2d7b3afce3",
+      "unchanged": true
+    },
+    "schedule_changes": {
+      "count": 0,
+      "sha256_original_columns": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "unchanged": true
+    },
+    "stock_corrections": {
+      "count": 0,
+      "sha256_original_columns": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "unchanged": true
+    },
+    "stock_movements": {
+      "count": 14,
+      "sha256_original_columns": "92fc5c37026aac8e8fd04202d772c881702e46dd2350dedb4104b39631d7a3a9",
+      "unchanged": true
+    },
+    "weather_cache": {
+      "count": 2,
+      "sha256_original_columns": "00586edfb746ea9b89f82c9b54c535994b0ddfd3624c7ac21ad6a74bccbbdc63",
+      "unchanged": false
+    },
+    "weather_location": {
+      "count": 1,
+      "sha256_original_columns": "e089e786bda82ca2773b2e51c51ad7f155fbf401f3cadcb07c5a206d3341927b",
+      "unchanged": true
+    }
+  }
+}

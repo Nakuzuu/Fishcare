@@ -1,0 +1,6 @@
+﻿Tahap cuaca/lokasi: flutter analyze, seluruh flutter test, build apk --debug belum dijalankan.
+SDK/cache C:\flutter di luar writable root; kebijakan sandbox_approval:false tetap berlaku.
+Bukti akses lock dan penolakan izin resmi: logs/m5-detail-fix-verification.log. Percobaan yang sama tidak diulang tanpa perubahan lingkungan.
+Perubahan Java/manifest, izin Android/GPS, serta SQLite native belum terverifikasi. Pemasangan/uji HP belum dilakukan.
+Checker Dart murni adalah bukti tambahan dengan mock device/store/API, bukan runner Flutter/native.
+API nyata CLI sudah dicoba dan gagal socket koneksi lokal (logs/weather-api-real.log); tidak diklaim sukses.

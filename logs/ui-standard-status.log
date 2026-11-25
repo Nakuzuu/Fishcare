@@ -1,0 +1,11 @@
+﻿2026-10-20 — UI baru FishCare, root aplikasi app_m0
+flutter analyze: dipanggil lewat C:\flutter\bin\flutter.bat. Tidak ada output; dihentikan Ctrl+C sebelum analyzer mulai.
+flutter test: dipanggil lewat flutter.bat. Tidak ada output; dihentikan Ctrl+C sebelum runner. Jumlah lulus/gagal tidak diketahui.
+flutter build apk --debug: dipanggil lewat flutter.bat. Tidak ada output; dihentikan Ctrl+C sebelum Gradle. Tidak ada APK UI baru.
+Diagnosis ReadWrite File.Open C:\flutter\bin\cache\flutter.bat.lock: Exception calling Open: Access to the path is denied.
+Sumber shared.bat memperlihatkan bootstrap mengulang acquire_lock dengan error dialihkan ke NUL.
+Jalur izin resmi exec_command require_escalated flutter analyze: ditolak otomatis. approval policy Granular sandbox_approval:false; cannot ask for escalated permissions.
+Pemeriksaan tambahan dart.exe analyze app_m0/lib: exit1. CreateFile failed5 (Access is denied), ProcessException saat memulai dartaotruntime.exe analysis_server_aot.dart.snapshot. Bukan flutter analyze sukses.
+adb get-state: daemon started, error: no devices/emulators found. Tidak memasang atau menguji HP.
+Format: lihat ui-format.log; hanya parsing/format, bukan analisis tipe atau pengujian runtime.
+Tidak mengubah SDK/cache/ACL, tidak memakai snapshot Flutter sebagai jalur alternatif, tidak menyalin SDK.

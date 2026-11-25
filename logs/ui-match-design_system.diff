@@ -1,0 +1,140 @@
+--- before/design_system.dart
++++ after/design_system.dart
+@@ -260,15 +260,18 @@
+         unawaited(_leave());
+       }
+     },
+-    child: ListView(
++    child: SingleChildScrollView(
+       padding: widget.padding,
+       keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+-      children: [
+-        for (var i = 0; i < widget.children.length; i++) ...[
+-          if (i > 0) const SizedBox(height: 18),
+-          widget.children[i],
++      child: Column(
++        crossAxisAlignment: CrossAxisAlignment.stretch,
++        children: [
++          for (var i = 0; i < widget.children.length; i++) ...[
++            if (i > 0) const SizedBox(height: 18),
++            widget.children[i],
++          ],
+         ],
+-      ],
++      ),
+     ),
+   );
+ }
+@@ -327,6 +330,112 @@
+         color: warning ? const Color(0xFF80530D) : FishCareDesign.green,
+       ),
+     ),
++  );
++}
++
++/// Angka utama dan satuannya mengikuti hierarki pada desain proposal.
++class FishMetric extends StatelessWidget {
++  const FishMetric(this.label, this.value, this.unit, {super.key});
++  final String label, value, unit;
++  @override
++  Widget build(BuildContext context) => Column(
++    crossAxisAlignment: CrossAxisAlignment.start,
++    children: [
++      Text(label, style: Theme.of(context).textTheme.bodySmall),
++      const SizedBox(height: 6),
++      Text.rich(
++        TextSpan(
++          children: [
++            TextSpan(
++              text: value,
++              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w700),
++            ),
++            TextSpan(
++              text: ' $unit',
++              style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w400),
++            ),
++          ],
++        ),
++      ),
++    ],
++  );
++}
++
++class FishMetrics extends StatelessWidget {
++  const FishMetrics({
++    super.key,
++    required this.population,
++    required this.weight,
++  });
++  final String population, weight;
++  @override
++  Widget build(BuildContext context) => Padding(
++    padding: const EdgeInsets.symmetric(vertical: 16),
++    child: LayoutBuilder(
++      builder: (context, constraints) {
++        final items = [
++          FishMetric('Populasi', population, 'ekor'),
++          FishMetric('Bobot rata-rata', weight, 'g/ikan'),
++        ];
++        if (constraints.maxWidth < 250 ||
++            MediaQuery.textScalerOf(context).scale(15) > 22) {
++          return Column(
++            crossAxisAlignment: CrossAxisAlignment.start,
++            children: [items[0], const SizedBox(height: 16), items[1]],
++          );
++        }
++        return Row(
++          crossAxisAlignment: CrossAxisAlignment.start,
++          children: [
++            Expanded(child: items[0]),
++            const SizedBox(width: 16),
++            Expanded(child: items[1]),
++          ],
++        );
++      },
++    ),
++  );
++}
++
++/// Dua kolom sama lebar tanpa tinggi tetap, sehingga teks besar dapat membungkus.
++class FishActionGrid extends StatelessWidget {
++  const FishActionGrid({super.key, required this.children});
++  final List<Widget> children;
++  @override
++  Widget build(BuildContext context) => Column(
++    crossAxisAlignment: CrossAxisAlignment.stretch,
++    children: [
++      for (var i = 0; i < children.length; i += 2) ...[
++        if (i > 0) const SizedBox(height: 12),
++        IntrinsicHeight(
++          child: Row(
++            crossAxisAlignment: CrossAxisAlignment.stretch,
++            children: [
++              Expanded(child: children[i]),
++              if (i + 1 < children.length) ...[
++                const SizedBox(width: 12),
++                Expanded(child: children[i + 1]),
++              ],
++            ],
++          ),
++        ),
++      ],
++    ],
++  );
++}
++
++class FishFieldLabel extends StatelessWidget {
++  const FishFieldLabel(this.label, {super.key, required this.child});
++  final String label;
++  final Widget child;
++  @override
++  Widget build(BuildContext context) => Column(
++    crossAxisAlignment: CrossAxisAlignment.stretch,
++    children: [
++      Text(label, style: const TextStyle(fontWeight: FontWeight.w600)),
++      const SizedBox(height: 8),
++      child,
++    ],
+   );
+ }
+ 

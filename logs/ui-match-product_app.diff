@@ -1,0 +1,145 @@
+--- before/product_app.dart
++++ after/product_app.dart
+@@ -524,6 +524,13 @@
+                 ),
+               ),
+               if (row.kind == MasterKind.pond) ...[
++                if (widget.cycles != null)
++                  CyclePanel(
++                    pond: row,
++                    masters: widget.repository,
++                    repository: widget.cycles!,
++                    feeds: widget.feeds,
++                  ),
+                 const SectionTitle('Identitas kolam'),
+                 FishCard(
+                   child: Column(
+@@ -549,13 +556,6 @@
+                     label: const Text('Ubah identitas'),
+                   ),
+                 ),
+-                if (widget.cycles != null)
+-                  CyclePanel(
+-                    pond: row,
+-                    masters: widget.repository,
+-                    repository: widget.cycles!,
+-                    feeds: widget.feeds,
+-                  ),
+               ] else ...[
+                 ValueRow('Harga tercatat', '${uiMoney(row.price!)} / kg'),
+                 const Text(
+@@ -754,41 +754,78 @@
+           '${widget.record == null ? 'Tambah' : 'Ubah'} ${widget.kind == MasterKind.pond ? 'kolam' : 'pakan'}',
+         ),
+       ),
++      bottomNavigationBar: Padding(
++        padding: EdgeInsets.only(
++          bottom: MediaQuery.viewInsetsOf(context).bottom,
++        ),
++        child: SafeArea(
++          top: false,
++          child: Container(
++            padding: const EdgeInsets.all(18),
++            decoration: const BoxDecoration(
++              color: FishCareDesign.background,
++              border: Border(top: BorderSide(color: FishCareDesign.line)),
++            ),
++            child: FilledButton(
++              onPressed: _saving ? null : _save,
++              child: Text(_saving ? 'Menyimpan…' : 'Simpan'),
++            ),
++          ),
++        ),
++      ),
+       body: SafeArea(
+         child: Form(
+           key: _form,
+           child: FormList(
+-            padding: const EdgeInsets.all(16),
++            padding: const EdgeInsets.all(18),
+             children: [
+-              TextFormField(
+-                scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
+-                controller: _name,
+-                enabled: !_saving,
+-                decoration: InputDecoration(
+-                  labelText: 'Nama *',
+-                  errorText: _nameError,
+-                ),
+-                textInputAction: TextInputAction.next,
+-                validator: (value) => _validate(value),
++              FishFieldLabel(
++                widget.kind == MasterKind.pond
++                    ? 'Nama kolam *'
++                    : 'Nama pakan *',
++                child: TextFormField(
++                  scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
++                  controller: _name,
++                  enabled: !_saving,
++                  decoration: InputDecoration(
++                    hintText: widget.kind == MasterKind.pond
++                        ? 'Contoh: Kolam Timur'
++                        : 'Nama pakan',
++                    errorText: _nameError,
++                  ),
++                  textInputAction: TextInputAction.next,
++                  validator: (value) => _validate(value),
++                ),
+               ),
+               if (widget.kind == MasterKind.pond) ...[
+-                TextFormField(
+-                  scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
+-                  controller: _size,
+-                  enabled: !_saving,
+-                  decoration: const InputDecoration(
+-                    labelText: 'Ukuran/catatan dimensi (opsional)',
++                FishFieldLabel(
++                  'Ukuran / catatan dimensi',
++                  child: TextFormField(
++                    scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
++                    controller: _size,
++                    enabled: !_saving,
++                    decoration: const InputDecoration(
++                      hintText: 'Contoh: 4 × 6 m',
++                      helperText:
++                          'Opsional. Tidak digunakan dalam perhitungan pakan.',
++                    ),
+                   ),
+                 ),
+-                TextFormField(
+-                  scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
+-                  controller: _notes,
+-                  enabled: !_saving,
+-                  decoration: const InputDecoration(
+-                    labelText: 'Catatan (opsional)',
++                FishFieldLabel(
++                  'Catatan',
++                  child: TextFormField(
++                    scrollPadding: const EdgeInsets.only(bottom: 100, top: 24),
++                    controller: _notes,
++                    enabled: !_saving,
++                    decoration: const InputDecoration(
++                      hintText: 'Contoh: dekat pintu masuk',
++                    ),
++                    minLines: 3,
++                    maxLines: 4,
+                   ),
+-                  minLines: 2,
+-                  maxLines: 4,
++                ),
++                const Notice(
++                  'Nama yang sama, termasuk perbedaan huruf besar dan kecil, tidak dapat digunakan.',
+                 ),
+               ] else
+                 TextFormField(
+@@ -807,10 +844,6 @@
+               const SizedBox(height: 20),
+               if (_error != null) Text(_error!, key: const Key('save-error')),
+               if (_saving) const LinearProgressIndicator(),
+-              FilledButton(
+-                onPressed: _saving ? null : _save,
+-                child: Text(_saving ? 'Menyimpan…' : 'Simpan'),
+-              ),
+             ],
+           ),
+         ),
